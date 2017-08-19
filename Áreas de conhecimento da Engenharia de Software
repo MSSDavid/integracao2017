@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Integração 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        
+    </head>
+    <body>
+        <div><!-- Título  -->
+            <h1><strong>Áreas de conhecimento do SWEBOK</strong></h1>     
+        </div>
+        
+        <br/><br/>
+        
+        <div><!-- Parte executada por Breno de Melo Gomes  -->
+            <h2><strong>4° Área de conhecimento: Teste de software</strong><br/><br/></h2>
+            <h3>
+                O teste de software consiste em ma verifição dinâmica, para avaliar se um determinado programa
+                se comporta de forma esperada, em um escopo finito de casos de teste, correspondentes aos requisitos 
+                funcionais e não funcionais, definidos durante a modelagem do sistema.
+            </h3>
+            
+            <br/><br/>            
+            
+            <h2><strong>5° Área de conhecimento: Manutenção de software</strong><br/><br/></h2>
+            <h3>
+                Após o a finalização de um projeto de software, se o mesmo continuar operante, naturalmente ele sofrerá
+                mudanças e necessitará evoluir. Dessa forma, defeitos serão descobertos, operações de mudança de ambiente
+                e novas requisições dos usuários. Assim, a manutenção do ciclo de vida do software se da, desde a primeira 
+                implementação de uma funcionalidade ate o dia em que o mesmo deixa de ser utilizado, garantindo assim o software
+                satisfaça as necessidades de seus usuários.   
+            </h3>
+            
+            <br/><br/>            
+            
+            <h2><strong>6° Área de conhecimento: Gerência de configuração de software</strong><br/><br/></h2>
+            <h3>
+                A gerência de configuração de software, é responsável por identificar a configuração de um sistema, sobre
+                diferentes perspectivas no decorrer do tempo, com o propósito de controlar sistematicamente as mudanças nos
+                processos deconfiguração e manutenção, garantindo a integridade e rastreabilidade ao longo do ciclo de vida do 
+                software/sistema.
+            </h3>
+            
+        </div>
+    </body>
+</html>
