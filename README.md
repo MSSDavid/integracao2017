@@ -10,3 +10,6 @@ A engenharia de software tem 15 áreas de conhecimentos que estão resumidas [ne
 ## Dúvidas
 
 As dúvidas dos alunos deste grupo estão registradas [aqui](https://github.com/MSSDavid/integracao2017/wiki/duvidas-plano).
+## Estratégia e Infraestutura
+
+A estratégia preliminar e a infraestutura a ser utilizada estão definidas [nesta wiki](https://github.com/MSSDavid/integracao2017/wiki/Defini%C3%A7%C3%A3o-da-estrat%C3%A9gia-preliminar-e-infraestrutura)
