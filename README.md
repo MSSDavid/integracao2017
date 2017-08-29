@@ -13,3 +13,17 @@ As dúvidas dos alunos deste grupo estão registradas [aqui](https://github.com/
 ## Estratégia e Infraestutura
 
 A estratégia preliminar e a infraestutura a ser utilizada estão definidas [nesta wiki](https://github.com/MSSDavid/integracao2017/wiki/Defini%C3%A7%C3%A3o-da-estrat%C3%A9gia-preliminar-e-infraestrutura)
+
+## Integrantes
+
+[David Matheus Santos Sousa](https://github.com/MSSDavid/)
+
+[Breno Melo de Gomes](https://github.com/gomesbreno)
+
+[João Pedro Salgado Di Cavalcanti Cunha](https://github.com/joaopsalgado)
+
+[Marcus Mitra Muniz Inácio](https://github.com/MitraTheAngrod)
+
+[Samuel Rocha Costa](https://github.com/samuelrcosta)
+
+
