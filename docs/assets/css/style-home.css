@@ -1,0 +1,31 @@
+.titulo{
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.grafico{
+    height: 530px;
+}
+
+.topo{
+    height: 50px;
+}
+
+.artigo{
+    color: white;
+    height: auto;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.artigo h1{
+    text-align: center;
+}
+
+.artigo-secundario{
+    display: none;
+}
