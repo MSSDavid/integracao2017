@@ -24,6 +24,8 @@ $('form').on('submit', function() {
 $('input').on('focus', function() {
   var index = $(this).parent().index();
   var rotation = -22.5 - (45 * index);
+  $('.artigo').slideUp();
+  $('#artigo-'+ (index +1)).slideDown();
   setWheelRotation(rotation);
 });
 

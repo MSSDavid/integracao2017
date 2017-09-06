@@ -26,9 +26,3 @@ function inserirTopo(classe){
     $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
 }
 
-
-$('.area').on("click", function(){
-  $('.artigo').slideUp();
-  area = $(this).attr("data-area");
-  $('#artigo-'+area).slideDown();
-});
