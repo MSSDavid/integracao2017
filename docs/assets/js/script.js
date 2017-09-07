@@ -15,7 +15,7 @@ function inserirTopo(classe){
             "</div>" +
             "<div id='navbar' class='navbar-collapse collapse'>" +
               "<form class='navbar-form navbar-right'>" +
-                "<input type='text' class='form-control' id='busca placeholder='Pesquisar...'>" +
+                "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca placeholder='Pesquisar...'>" +
               "</form>" +
               "<ul class='nav navbar-nav navbar-right'>" +
                 "<li><a href='ppc-completo.html'>PPC Completo</a></li>" +
@@ -47,3 +47,10 @@ $(".visao-padrao").on("click", function(){
   $(".artigo").slideUp();
   $("#artigo-principal").slideDown();
 });
+
+function redirecionar(){
+    if (event.keyCode == 13){
+        var busca = $("#busca").val();
+        window.location.href = "pesquisar.html?termo="+busca;
+    }
+}
