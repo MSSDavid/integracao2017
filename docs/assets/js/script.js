@@ -14,9 +14,9 @@ function inserirTopo(classe){
             "</a>" +
             "</div>" +
             "<div id='navbar' class='navbar-collapse collapse'>" +
-              "<form class='navbar-form navbar-right'>" +
+              "<div class='navbar-form navbar-right'>" +
                 "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" +
-              "</form>" +
+              "</div>" +
               "<ul class='nav navbar-nav navbar-right'>" +
                 "<li><a href='ppc-completo.html'>PPC Completo</a></li>" +
               "</ul>" +
