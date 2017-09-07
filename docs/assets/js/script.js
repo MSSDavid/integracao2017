@@ -15,10 +15,10 @@ function inserirTopo(classe){
             "</div>" +
             "<div id='navbar' class='navbar-collapse collapse'>" +
               "<form class='navbar-form navbar-right'>" +
-                "<input type='text' class='form-control' placeholder='Pesquisar...'>" +
+                "<input type='text' class='form-control' id='busca placeholder='Pesquisar...'>" +
               "</form>" +
               "<ul class='nav navbar-nav navbar-right'>" +
-                "<li><a href='#'>Wiki</a></li>" +
+                "<li><a href='ppc-completo.html'>PPC Completo</a></li>" +
               "</ul>" +
             "</div>" +
           "</div>" +
@@ -26,3 +26,24 @@ function inserirTopo(classe){
     $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
 }
 
+$(".visao-swebok").on("click", function(){
+  areas = ["Area 123", "Area 456", "Area 678", "Area 8910", "Area 111213", "Area 141516", "Area 171819", "Area 202122"];
+  roda = $(".wheel").find("li");
+  for(i = 0; i < roda.length; i++){
+    $(".wheel").find("li").find("input").eq(i).attr("data-area", (i + 11));
+    $(".wheel").find("li").find("input").eq(i).attr("placeholder", areas[i]);
+  }
+  $(".artigo").slideUp();
+  $("#artigo-swebok").slideDown();
+});
+
+$(".visao-padrao").on("click", function(){
+  areas = ["Area ABC", "Area DCE", "Area FGH", "Area IJK", "Area LMN", "Area OPQ", "Area RST", "Area UVX"];
+  roda = $(".wheel").find("li");
+  for(i = 0; i < roda.length; i++){
+    $(".wheel").find("li").find("input").eq(i).attr("data-area", (i + 1));
+    $(".wheel").find("li").find("input").eq(i).attr("placeholder", areas[i]);
+  }
+  $(".artigo").slideUp();
+  $("#artigo-principal").slideDown();
+});

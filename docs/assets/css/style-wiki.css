@@ -1,37 +1,5 @@
-.titulo{
-    height: 40px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.grafico{
-    height: 530px;
-}
-
 .topo{
     height: 50px;
-}
-
-.artigo{
-    color: white;
-    height: auto;
-    text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.artigo h1{
-    text-align: center;
-}
-
-.artigo-secundario{
-    display: none;
-}
-
-.artigo-swebok{
-    display: none;
 }
 
 .botao-visao{
@@ -45,6 +13,7 @@
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+    display: none;
 }
 
 .visao-padrao{
@@ -71,4 +40,34 @@
 .visao-swebok:hover{
     background-color: white;
     color: black;
+}
+
+.menu{
+    background-color: #CCC;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.titulo-area-principal{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.topico{
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.topico a{
+    color: black;
+}
+
+.topico a:hover{
+    color: black;
+}
+
+.conteudo ul,li{
+    list-style: none;
 }

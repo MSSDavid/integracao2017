@@ -23,9 +23,10 @@ $('form').on('submit', function() {
 
 $('input').on('focus', function() {
   var index = $(this).parent().index();
+  var ref =  $(this).attr("data-area");
   var rotation = -22.5 - (45 * index);
   $('.artigo').slideUp();
-  $('#artigo-'+ (index +1)).slideDown();
+  $('#artigo-'+ ref).slideDown();
   setWheelRotation(rotation);
 });
 
@@ -56,5 +57,5 @@ $('[tabindex]').on('keydown', function(event) {
 
 $(document).ready(function() {
   $('.wheel').removeClass('closed');
-  firstInputField().focus();
+  //firstInputField().focus();
 });

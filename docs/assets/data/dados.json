@@ -1,0 +1,40 @@
+{
+"topicos": [
+    {
+    "titulo": "Computação e Sociedade",
+    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
+    "url": "computacao-e-sociedade",
+    "palavras-_chaves": ["etica", "computação e sociedade", "historia da computacao", "sociedade"],
+    "area": "Estrutura Curricular",
+    "area_swebok": "Prática em Engenharia de Software Profissional",
+    "dados": "Ementa História da computação Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente Subáreas da computação e áreas interdisciplinares Importância e desafios da computação no Brasil e no mundo Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão Leis e normas relacionadas à Informática Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação Ética na Computação Empresas de tecnologia da informação Incubadoras de empresas."
+    },
+    {
+    "titulo": "Aptidão do Instituto de Informática",
+    "descricao": "O curso de Engenharia de Software é ministrado pelo Instituto de Informática, criado em 1983, com bastante tradição, inovação e resultados.",
+    "url": "aptidao-do-instituto-de-informatica",
+    "palavras_chaves": ["inf", "instituto", "historia do curso", "direçao", "coordenacao", "estrutura", "local", "local de aulas", "orgao"],
+    "area": "Estrutura",
+    "area_swebok": "Fundamentos da Computação",
+    "dados": "O Instituto de Informática da UFG possui sólida experiência no ensino superior em Computação, iniciada em 1983, com a primeira turma do curso de Bacharelado em Ciências da Computação (CC). A partir de 2009 foram criados mais dois cursos de graduação: o Bacharelado em Engenharia de Software (BES) e o Bacharelado em Sistemas de Informação (SI). O INF também é responsável por dezenas de disciplinas da área de Computação ministradas para diversos cursos de graduação de várias unidades de ensino da UFG Na pós-graduação lato sensu o INF já ofertou dezenas de edições dos mais variados cursos de especialização na área de Computação. Na pós-graduação stricto sensu o INF oferece, desde 2001, o Mestrado em Ciência da Computação. A partir de 2010 o INF passou a oferecer o Doutorado em Ciência da Computação Essa história perfaz mais de três décadas de ensino, com milhares de egressos, alguns deles ocupando cargos de destaque em universidades, empresas e organizações tanto no Brasil quanto no exterior O INF construiu, ao longo desse período, um consistente envolvimento com empresas e organizações de Tecnologia da Informação e Comunicação (TIC). O Apoema [APOEMA] é o órgão do INF responsável pela cooperação e interação com organizações externas, com foco em soluções inovadoras Um número significativo de projetos de Pesquisa e Desenvolvimento (P&D) já foi realizado pelo INF em parceria com organizações locais, e alguns com empresas multinacionais (como Dell e HP, por exemplo). O INF também já participou de vários projetos de inovação tecnológica financiados pela Fundação de Apoio à Pesquisa do Estado de Goiás (FAPEG)"
+    },
+    {
+    "titulo": "Arquitetura de Software",
+    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
+    "url": "arquitetura-de-software",
+    "palavras_chaves": ["Estrutura e arquitetura de software", "Estilos arquiteturais", "Padrões de Design"],
+    "area": "Disciplinas Específicas",
+    "area_swebok": "Design de Software",
+    "dados": "Ementa Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura Documentação de arquitetura de software (8h) Fundamentos de arquitetura de software (4h): importância, contexto, estilos Método de desenvolvimento de arquitetura de software (8h) Técnicas para satisfazer requisitos de qualidade (16h) Criação de arquiteturas de software (16h) Condições mínimas (estar apto a) (Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles (Faz com orientação). Compreender a documentação de arquitetura de software (Segue instruções). Documentar arquitetura de software (Segue instruções). Criar arquitetura de software"
+    },
+    {
+    "titulo": "Arquitetura de Software",
+    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
+    "url": "arquitetura-de-software",
+    "palavras_chaves": ["Estrutura e arquitetura de software", "Estilos arquiteturais", "Padrões de Design"],
+    "area": "Disciplinas Específicas",
+    "area_swebok": "Design de Software",
+    "dados": "Ementa Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura Documentação de arquitetura de software (8h) Fundamentos de arquitetura de software (4h): importância, contexto, estilos Método de desenvolvimento de arquitetura de software (8h) Técnicas para satisfazer requisitos de qualidade (16h) Criação de arquiteturas de software (16h) Condições mínimas (estar apto a) (Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles (Faz com orientação). Compreender a documentação de arquitetura de software (Segue instruções). Documentar arquitetura de software (Segue instruções). Criar arquitetura de software"
+    }
+]
+}
