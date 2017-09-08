@@ -4,7 +4,7 @@
     "titulo": "Computação e Sociedade",
     "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
     "url": "computacao-e-sociedade",
-    "palavras-_chaves": ["etica", "computação e sociedade", "historia da computacao", "sociedade"],
+    "palavras_chaves": ["etica", "computação e sociedade", "historia da computacao", "sociedade"],
     "area": "Estrutura Curricular",
     "area_swebok": "Prática em Engenharia de Software Profissional",
     "dados": "Ementa História da computação Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente Subáreas da computação e áreas interdisciplinares Importância e desafios da computação no Brasil e no mundo Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão Leis e normas relacionadas à Informática Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação Ética na Computação Empresas de tecnologia da informação Incubadoras de empresas."
@@ -35,6 +35,15 @@
     "area": "Disciplinas Específicas",
     "area_swebok": "Design de Software",
     "dados": "Ementa Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura Documentação de arquitetura de software (8h) Fundamentos de arquitetura de software (4h): importância, contexto, estilos Método de desenvolvimento de arquitetura de software (8h) Técnicas para satisfazer requisitos de qualidade (16h) Criação de arquiteturas de software (16h) Condições mínimas (estar apto a) (Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles (Faz com orientação). Compreender a documentação de arquitetura de software (Segue instruções). Documentar arquitetura de software (Segue instruções). Criar arquitetura de software"
+    },
+    {
+    "titulo": "Teste area 4",
+    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
+    "url": "teste-area-4",
+    "palavras_chaves": ["etica", "computação e sociedade", "historia da computacao", "sociedade"],
+    "area": "Informações Adicionais",
+    "area_swebok": "Prática em Engenharia de Software Profissional",
+    "dados": "Ementa História da computação Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente Subáreas da computação e áreas interdisciplinares Importância e desafios da computação no Brasil e no mundo Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão Leis e normas relacionadas à Informática Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação Ética na Computação Empresas de tecnologia da informação Incubadoras de empresas."
     }
 ]
 }

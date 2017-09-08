@@ -9,7 +9,7 @@ function inserirTopo(classe){
                 "<span class='icon-bar'></span>" +
                 "<span class='icon-bar'></span>" +
               "</button>" +
-              "<a class='navbar-brand' href='#' style='padding: 0'>" +
+              "<a class='navbar-brand' href='index.html' style='padding: 0'>" +
                 "<img alt='Logo BES' src='assets/images/es-logo.png' style='height:34px;margin-left: 10px;margin-top: 8px'/>" +
             "</a>" +
             "</div>" +
@@ -18,7 +18,7 @@ function inserirTopo(classe){
                 "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" +
               "</div>" +
               "<ul class='nav navbar-nav navbar-right'>" +
-                "<li><a href='ppc-completo.html'>PPC Completo</a></li>" +
+                "<li><a href='index.html'>Página Inicial</a></li>" +
               "</ul>" +
             "</div>" +
           "</div>" +
@@ -57,7 +57,7 @@ function inserirMenu(){
 
 function redirecionar(){
     if (event.keyCode == 13){
-        var busca = $("#busca").val();
+        var busca = encodeURI(removerAcentos($("#busca").val()));
         window.location.href = "pesquisar.html?termo="+busca;
     }
 }
@@ -74,6 +74,7 @@ function realizaPesquisa(){
     });
     if ((data.hasOwnProperty("termo")) && (!!data.termo)){
         var $conteudo = document.querySelector('.conteudo');
+        data.termo = decodeURI(data.termo);
         var letraFinal = data.termo.charAt(data.termo.length-1);
         if(letraFinal == 's'){
             var termoFinal = data.termo.substr(0,(data.termo.length - 2));
@@ -86,14 +87,17 @@ function realizaPesquisa(){
             var dados = data.topicos;
             for (i = 0; i < dados.length; i++){
                 var chaves = dados[i].palavras_chaves;
+                for (j = 0; j < chaves.length; j++){
+                    chaves[j] = removerAcentos(chaves[j]).toLowerCase();
+                }
                 var controle = 0;
-                if(dados[i].titulo.toLowerCase().search(termoFinal) != -1){
+                if(removerAcentos(dados[i].titulo).toLowerCase().search(termoFinal) != -1){
                     controle = 1;
-                }else if(dados[i].area.toLowerCase().search(termoFinal) != -1){
+                }else if(removerAcentos(dados[i].area).toLowerCase().search(termoFinal) != -1){
                     controle = 1;
-                }else if(dados[i].area_swebok.toLowerCase().search(termoFinal) != -1){
+                }else if(removerAcentos(dados[i].area_swebok).toLowerCase().search(termoFinal) != -1){
                     controle = 1;
-                }else if(dados[i].dados.toLowerCase().search(termoFinal) != -1){
+                }else if(removerAcentos(dados[i].dados).toLowerCase().search(termoFinal) != -1){
                     controle = 1;
                 }else if(chaves.indexOf(termoFinal) != -1){
                     controle = 1;
@@ -114,4 +118,31 @@ function realizaPesquisa(){
         var $conteudo = document.querySelector('.conteudo');
         $conteudo.insertAdjacentHTML('beforeend', '<h1>Nenhum termo pesquisado!</h1>');
     }
+}
+
+function removerAcentos( newStringComAcento ) {
+  var string = newStringComAcento;
+	var mapaAcentosHex 	= {
+		a : /[\xE0-\xE6]/g,
+        A : /[\xC0-\xC6]/g,
+        e : /[\xE8-\xEB]/g,
+        E : /[\xC8-\xCB]/g,
+        i : /[\xEC-\xEF]/g,
+        I : /[\xCC-\xCF]/g,
+        o : /[\xF2-\xF6]/g,
+        O : /[\xD2-\xD6]/g,
+        u : /[\xF9-\xFC]/g,
+        U : /[\xD9-\xDC]/g,
+        c : /\xE7/g,
+        C : /\xC7/g,
+        n : /\xF1/g,
+        N : /\xD1/g,
+	};
+
+	for ( var letra in mapaAcentosHex ) {
+		var expressaoRegular = mapaAcentosHex[letra];
+		string = string.replace( expressaoRegular, letra );
+	}
+
+	return string;
 }
