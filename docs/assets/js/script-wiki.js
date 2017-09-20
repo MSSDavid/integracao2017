@@ -33,12 +33,12 @@ function ajustaMenu() {
 
 function inserirMenu(){
     $.getJSON("assets/data/dados.json", function(data) {
-      var dados = data.topicos;
+      var dados = data.areas;
       var areas = [];
       var urls = [];
       for (i = 0; i < dados.length; i++){
-          if(areas.indexOf(dados[i].area) == -1){
-              areas.push(dados[i].area);
+          if(areas.indexOf(dados[i].nome) == -1){
+              areas.push(dados[i].nome);
               urls.push(dados[i].url);
           }
       }

@@ -44,6 +44,77 @@
     "area": "Informações Adicionais",
     "area_swebok": "Prática em Engenharia de Software Profissional",
     "dados": "Ementa História da computação Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente Subáreas da computação e áreas interdisciplinares Importância e desafios da computação no Brasil e no mundo Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão Leis e normas relacionadas à Informática Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação Ética na Computação Empresas de tecnologia da informação Incubadoras de empresas."
+    },
+    {
+        "titulo": "Lista de Siglas",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Agradecimentos",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Apresentaçao",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Identificação",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Exosiçao de Motivos",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Lista de ",
+        "descricao": "",
+        "url" "",
+        "palavras_chaves": [],
+        "area": "",
+        "area_swebok": "",
+        "dados":""
+    },
+],
+"areas":[
+    {
+        "nome": "Introdução ao PPC",
+        "url": null
+    },
+    {
+        "Contexto",
+        "url": null
+    },
+    {
+        "Objetivos",
+        "url": null
+    },
+    {
+        "Exectativa da formação do profissional"
     }
-]
+    ]
 }
