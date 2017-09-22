@@ -14,100 +14,334 @@
     "descricao": "O curso de Engenharia de Software é ministrado pelo Instituto de Informática, criado em 1983, com bastante tradição, inovação e resultados.",
     "url": "aptidao-do-instituto-de-informatica",
     "palavras_chaves": ["inf", "instituto", "historia do curso", "direçao", "coordenacao", "estrutura", "local", "local de aulas", "orgao"],
-    "area": "Estrutura",
+    "area": "Contexto",
     "area_swebok": "Fundamentos da Computação",
     "dados": "O Instituto de Informática da UFG possui sólida experiência no ensino superior em Computação, iniciada em 1983, com a primeira turma do curso de Bacharelado em Ciências da Computação (CC). A partir de 2009 foram criados mais dois cursos de graduação: o Bacharelado em Engenharia de Software (BES) e o Bacharelado em Sistemas de Informação (SI). O INF também é responsável por dezenas de disciplinas da área de Computação ministradas para diversos cursos de graduação de várias unidades de ensino da UFG Na pós-graduação lato sensu o INF já ofertou dezenas de edições dos mais variados cursos de especialização na área de Computação. Na pós-graduação stricto sensu o INF oferece, desde 2001, o Mestrado em Ciência da Computação. A partir de 2010 o INF passou a oferecer o Doutorado em Ciência da Computação Essa história perfaz mais de três décadas de ensino, com milhares de egressos, alguns deles ocupando cargos de destaque em universidades, empresas e organizações tanto no Brasil quanto no exterior O INF construiu, ao longo desse período, um consistente envolvimento com empresas e organizações de Tecnologia da Informação e Comunicação (TIC). O Apoema [APOEMA] é o órgão do INF responsável pela cooperação e interação com organizações externas, com foco em soluções inovadoras Um número significativo de projetos de Pesquisa e Desenvolvimento (P&D) já foi realizado pelo INF em parceria com organizações locais, e alguns com empresas multinacionais (como Dell e HP, por exemplo). O INF também já participou de vários projetos de inovação tecnológica financiados pela Fundação de Apoio à Pesquisa do Estado de Goiás (FAPEG)"
     },
     {
-    "titulo": "Arquitetura de Software",
-    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
-    "url": "arquitetura-de-software",
-    "palavras_chaves": ["Estrutura e arquitetura de software", "Estilos arquiteturais", "Padrões de Design"],
-    "area": "Disciplinas Específicas",
-    "area_swebok": "Design de Software",
-    "dados": "Ementa Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura Documentação de arquitetura de software (8h) Fundamentos de arquitetura de software (4h): importância, contexto, estilos Método de desenvolvimento de arquitetura de software (8h) Técnicas para satisfazer requisitos de qualidade (16h) Criação de arquiteturas de software (16h) Condições mínimas (estar apto a) (Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles (Faz com orientação). Compreender a documentação de arquitetura de software (Segue instruções). Documentar arquitetura de software (Segue instruções). Criar arquitetura de software"
-    },
-    {
-    "titulo": "Arquitetura de Software",
-    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
-    "url": "arquitetura-de-software",
-    "palavras_chaves": ["Estrutura e arquitetura de software", "Estilos arquiteturais", "Padrões de Design"],
-    "area": "Disciplinas Específicas",
-    "area_swebok": "Design de Software",
-    "dados": "Ementa Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura Documentação de arquitetura de software (8h) Fundamentos de arquitetura de software (4h): importância, contexto, estilos Método de desenvolvimento de arquitetura de software (8h) Técnicas para satisfazer requisitos de qualidade (16h) Criação de arquiteturas de software (16h) Condições mínimas (estar apto a) (Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles (Faz com orientação). Compreender a documentação de arquitetura de software (Segue instruções). Documentar arquitetura de software (Segue instruções). Criar arquitetura de software"
-    },
-    {
-    "titulo": "Teste area 4",
-    "descricao": "É uma disciplina do primeiro período que trata da história da computação, a ética, e dentre outros conceitos sociais que não são tratados na maioria das outras disciplinas",
-    "url": "teste-area-4",
-    "palavras_chaves": ["etica", "computação e sociedade", "historia da computacao", "sociedade"],
-    "area": "Informações Adicionais",
-    "area_swebok": "Prática em Engenharia de Software Profissional",
-    "dados": "Ementa História da computação Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente Subáreas da computação e áreas interdisciplinares Importância e desafios da computação no Brasil e no mundo Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão Leis e normas relacionadas à Informática Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação Ética na Computação Empresas de tecnologia da informação Incubadoras de empresas."
-    },
-    {
         "titulo": "Lista de Siglas",
-        "descricao": "",
-        "url" "",
+        "descricao": "Lista de Siglas",
+        "url": "lista-de-siglas",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
         "area_swebok": "",
-        "dados":""
+        "dados":"ACM Association for Computing Machinery BES Bacharelado em Engenharia de Software CAPES Coordenação de Aperfeiçoamento de Pessoal de Nível Superior CC Ciências da Computação (bacharelado) COMTEC Comunidade Tecnológica de Goiás CNPq Conselho Nacional de Desenvolvimento Científico e Tecnológico DCN Diretrizes Curriculares Nacionais ENADE Exame Nacional de Desempenho de Estudantes FAPEG Fundação de Apoio à Pesquisa do Estado de Goiás IEEE Institute of Electrial and Electronics Engineers IME Instituto de Matemática e Estatística INF Instituto de Informática Letras Faculdade de Letras MEC Ministério da Educação NDE Núcleo Docente Estruturante P&D Pesquisa e Desenvolvimento PPC Projeto Pedagógico de Curso REUNI Reestruturação e Expansão das Universidades Federais SI Sistemas de Informação (bacharelado) TAE Técnico-Administrativo em Educação TIC Tecnologia da Informação e Comunicação UFG Universidade Federal de Goiás"
     },
     {
         "titulo": "Agradecimentos",
-        "descricao": "",
-        "url" "",
+        "descricao": "Agradecimentos",
+        "url": "agradecimentos",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
         "area_swebok": "",
-        "dados":""
+        "dados":"A Deus, por tudo."
     },
     {
         "titulo": "Apresentaçao",
-        "descricao": "",
-        "url" "",
+        "descricao": "Apresentação",
+        "url": "apresentacao",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
         "area_swebok": "",
-        "dados":""
+        "dados":"O curso de Bacharelado em Engenharia de Software (BES) é oferecido pelo Instituto de Informática (INF) da Universidade Federal de Goiás (UFG). A primeira versão do Projeto Pedagógico do Curso (PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE), que reinventou o BES. A busca pela qualidade é a motivação (p. 13) dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido (p. 10), o que lembra Paulo Freire, segundo o qual “toda leitura de texto pressupõe uma rigorosa leitura do contexto”. Não houve alteração relevante dos objetivos do curso (p. 14), nem tampouco do perfil do egresso (p. 15), contudo, ambos foram refinados. Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais (que não existiam quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das revista em sua totalidade. A estrutura curricular (p. 35) sofreu mudanças significativas. Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação. A disciplina “Prática em Engenharia de Software” (p. 75) é o elemento integrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas de Engenharia de Software são acompanhadas de uma seção adicional, “condições mínimas” (p. 56), que estabelece competências a serem demonstradas/adquiridas pelo estudante em cada uma delas. A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios (p. 23). Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções."
     },
     {
         "titulo": "Identificação",
-        "descricao": "",
-        "url" "",
+        "descricao": "Identificação",
+        "url": "identificacao",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
         "area_swebok": "",
-        "dados":""
+        "dados":"Nome do curso Engenharia de Software Grau acadêmico Bacharelado Título do egresso Bacharel(a) em Engenharia de Software Área de conhecimento (CNPq) Ciências Exatas e da Terra (1.00.00.00-3) Ciência da Computação (1.03.00.00-7) Metodologia e Técnicas da Computação (1.03.03.00-6) Engenharia de Software (1.03.03.02-2) Modalidade Presencial Local de oferta Instituto de Informática (UFG) Alameda Palmeiras, Quadra D, Câmpus Samambaia Goiânia (GO), CEP 74690-900 Reconhecimento Portaria Nº 819 de 29 de outubro de 2015. Número de registro no e-MEC: 201307356. Responsável Instituto de Informática (INF) Unidades executoras Instituto de Informática (INF) Instituto de Matemática e Estatística (IME) Faculdade de Letras (Letras) Número de vagas 40 vagas anuais Carga horária 3200 Duração do curso em semestres 9 semestres Turno de funcionamento Noturno Forma de ingresso Sistema de Seleção Unificada (SiSU). Em caso de existência de vagas é possível o ingresso através: (a) de transferência de outras instituições de ensino superior; (b) portadores de diploma ou (c) reingresso. Essas opções dependem de processo seletivo específico na UFG."
     },
     {
-        "titulo": "Exosiçao de Motivos",
-        "descricao": "",
-        "url" "",
+        "titulo": "Exposição de Motivos",
+        "descricao": "Exposição de Motivos",
+        "url": "exposicao-de-motivos",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
         "area_swebok": "",
-        "dados":""
+        "dados":"A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente por profissionais que visam atender essa demanda. O conhecimento necessário para produzir software é denominado de Engenharia de Software. Tradicionalmente esse conhecimento e as habilidades necessárias são adquiridas por egressos de outros cursos de graduação ou até por meio de cursos rápidos. Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área. A vocação de docentes do INF e o Programa de Reestruturação e Expansão das Universidades Federais (REUNI) resultaram na criação do primeiro curso de graduação (bacharelado) em Engenharia de Software do Brasil, o presente curso, pelo INF/UFG em 27/06/2008, conforme a resolução CONSUNI 10/2008, com o foco na formação de egressos aptos a usar de forma efetiva o conhecimento da Engenharia de Software. Essa primeira versão foi amplamente divulgada [BES1] [BES2]. Dezenas de docentes acumularam lições aprendidas desde o início da primeira turma do curso em março de 2009. A partir de outubro de 2014, o Núcleo Docente Estruturante (NDE) do curso iniciou esforço para refletir essas lições em uma nova versão do PPC. Ao longo de quase meia centena de encontros, o NDE fez uma exaustiva revisão do curso. As lições aprendidas e outras demandas, por exemplo, as diretrizes curriculares e o alinhamento com uma formação básica de qualidade em computação, definida pelo próprio INF, foram acomodadas na presente versão. Convém esclarecer que na época da criação do BES, sem similar no país, não existiam diretrizes curriculares específicas. Essas diretrizes vieram apenas em 2012 [CNE 2012]. A presente versão não é resultado de alterações superficiais aplicadas à versão anterior, mas de ampla reflexão. Insumos empregados na elaboração da versão anterior foram revisitados. As Diretrizes Curriculares Nacionais (DCN), a versão mais recente do corpo de conhecimento da área e o modelo de competência para o engenheiro de software balizaram os esforços realizados. Projetos pedagógicos de cursos semelhantes, inclusive em outros países, também foram investigados. Esse substancial conjunto de informação foi analisado à luz da experiência dos docentes do próprio curso e do contexto local. Por fim, o BES obteve nota máxima na avaliação do MEC em 2015, o que estimulou o cuidado com o curso, reforçado pelo Guia dos Estudantes da Editora Abril 2015, no qual, dentre os 28 cursos superiores em Engenharia de Software investigados, dois recebem 5 estrelas, um desses é o curso do presente projeto pedagógico. Em 2016, esse cenário persiste, conforme o Guia dos Estudantes 2016."
     },
     {
-        "titulo": "Objetivos Geral",
-        "descricao": "Objetivos",
-        "url" "",
+        "titulo": "Da aptidão do Instituto de Informática",
+        "descricao": "Da aptidão do Instituto de Informática",
+        "url": "da-aptidao-do-instituto-de-informatica",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Contexto",
         "area_swebok": "",
-        "dados":""
+        "dados":"O Instituto de Informática da UFG possui sólida experiência no ensino superior em Computação, iniciada em 1983, com a primeira turma do curso de Bacharelado em Ciências da Computação (CC). A partir de 2009 foram criados mais dois cursos de graduação: o Bacharelado em Engenharia de Software (BES) e o Bacharelado em Sistemas de Informação (SI). O INF também é responsável por dezenas de disciplinas da área de Computação ministradas para diversos cursos de graduação de várias unidades de ensino da UFG. Na pós-graduação lato sensu o INF já ofertou dezenas de edições dos mais variados cursos de especialização na área de Computação. Na pós-graduação stricto sensu o INF oferece, desde 2001, o Mestrado em Ciência da Computação. A partir de 2010 o INF passou a oferecer o Doutorado em Ciência da Computação. Essa história perfaz mais de três décadas de ensino, com milhares de egressos, alguns deles ocupando cargos de destaque em universidades, empresas e organizações tanto no Brasil quanto no exterior. O INF construiu, ao longo desse período, um consistente envolvimento com empresas e organizações de Tecnologia da Informação e Comunicação (TIC). O Apoema [APOEMA] é o órgão do INF responsável pela cooperação e interação com organizações externas, com foco em soluções inovadoras. Um número significativo de projetos de Pesquisa e Desenvolvimento (P&amp;D) já foi realizado pelo INF em parceria com organizações locais, e alguns com empresas multinacionais (como Dell e HP, por exemplo). O INF também já participou de vários projetos de inovação tecnológica financiados pela Fundação de Apoio à Pesquisa do Estado de Goiás (FAPEG)."
+    },
+    {
+        "titulo": "Da carência de mão de obra",
+        "descricao": "Da carência de mão de obra",
+        "url": "da-carencia-de-mao-de-obra",
+        "palavras_chaves": [],
+        "area": "Contexto",
+        "area_swebok": "",
+        "dados":"Um dos motivos para a existência do BES é a necessidade de formar recursos humanos em Engenharia de Software. A demanda por profissionais especializados na produção de software não existe só no Estado de Goiás, nem tampouco apenas no Brasil, mas em todo o mundo. Apesar da demanda, na ocasião da criação do BES, não era conhecido outro curso com a mesma denominação ou propósito no Brasil. A tradição do INF na socialização da Computação, juntamente com a atuação em Engenharia de Software do seu corpo docente, resultou em proposta pioneira no País de um curso especificamente voltado para a formação de Engenheiros de Software, com ênfase na produção de software. Hoje, o Guia dos Estudantes da Editora Abril lista 28 cursos similares. A região da Grande Goiânia reúne centenas de empresas de TIC, mas elas participam de forma tímida no mercado de software nacional. Com a disponibilidade de recursos humanos qualificados, essa participação pode crescer, o que é compatível com a dimensão do Estado de Goiás, a oitava economia nacional. Portanto, promover a indústria de produção de software em Goiás significa fomentar o aumento da participação das empresas do estado no mercado de software."
+    },
+    {
+        "titulo": "Dos indicadores socioeconômicos regionais",
+        "descricao": "Dos indicadores socioeconômicos regionais",
+        "url": "dos-indicadores-socioeconomicos-regionais",
+        "palavras_chaves": [],
+        "area": "Contexto",
+        "area_swebok": "",
+        "dados":"O BES cria a possibilidade de acesso ao ensino superior para aqueles que não podem usufruir do ensino privado. Segundo o IBGE [IBGE], em Goiás, 62.133 estudantes de graduação frequentavam cursos públicos em 2010, enquanto 156.415 estavam matriculados em cursos privados. Ou seja, estudantes em cursos públicos representam menos de 30% do total de estudantes matriculados no ensino superior. O rendimento nominal médio mensal domiciliar per capita de todos os municípios brasileiros revela que, das cidades goianas, a capital do estado é a melhor posicionada, em vigésimo quarto lugar. O município goiano seguinte nesta classificação é Alto Paraíso de Goiás, na posição 158. O terceiro é Jataí, na posição 188. Até esta terceira aparição de municípios goianos, observa-se que o Estado do Rio Grande do Sul contribui com 57 municípios, São Paulo contribui com 55 municípios e Santa Catarina com 25 municípios. Quando se analisa o produto interno bruto (PIB) dos municípios brasileiros, dentre os cem maiores, Goiás contribui com apenas 2 municípios (Goiânia e Anápolis). Reunidos, estes dois municípios possuem PIB inferior ao do décimo terceiro colocado, São Bernardo do Campo (SP). Os valores expostos acima sugerem que a capacidade de financiamento privado do ensino superior em Goiás é inferior à de outros estados. Apesar dessa limitação, menos de 30% do total de estudantes estão matriculados em cursos superiores públicos. Aqueles que conseguem acesso ao ensino superior, público ou privado, são minoria em Goiás. Segundo o [IBGE], em 2010 Goiás tinha 1.213.946 pessoas com 10 ou mais anos de idade com curso médio completo, enquanto apenas 218.548 estavam matriculadas em curso superior. Ou seja, menos de 20% continuam seus estudos até o ensino superior. Neste censo, Goiás tinha 394.491 cidadãos com curso superior completo em uma população total de 6.003.788, ou seja, 6,5% da população com curso superior. O Estado de São Paulo, por exemplo, apresenta uma taxa superior a 10%. Taxas ainda bem superiores são encontradas em outros países [OECD, 2012]. Além de contribuir para melhoria dos indicadores de educação em Goiás, o BES potencializa o crescimento da economia goiana por meio de alternativa à atual dependência do agronegócio. Essa alternativa fomenta a participação de Goiás em um mercado valioso, além de promover a criação de empregos. A posição estratégia do BES pode ser esclarecida por meio de iniciativas internacionais. Por exemplo, TechHire Initiative e Computer Scicence for All são programas americanos lançados nos dois últimos anos, orçados em cerca de 2 bilhões de dólares, com o propósito de promover a capacitação em produção de software nos Estados Unidos."
+    },
+    {
+        "titulo": "Objetivo Geral",
+        "descricao": "Objetivo Geral",
+        "url": "objetivo-geral",
+        "palavras_chaves": [],
+        "area": "Objetivos",
+        "area_swebok": "",
+        "dados":"O BES tem como objetivo Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional."
     },
     {
         "titulo": "Objetivos Específicos",
-        "descricao": "Objetivos",
-        "url" "",
+        "descricao": "Objetivos Específicos",
+        "url": "objetivos-especificos",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Objetivos",
         "area_swebok": "",
-        "dados":""
+        "dados":"Reconhecer e valorizar o respeito à diversidade. Conforme se lê na Constituição Federal em seu Art. 3.º, inciso IV: promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação. Promover relações étnico-raciais respeitosas, assim como a socialização da história da formação dos brasileiros. Ampliar a compreensão acerca de questões ambientais e, ao mesmo tempo, valorizar projetos sustentáveis. Contribuir com a demanda da sociedade por softwares de qualidade. Conceber e desenvolver produtos inovadores. Promover a engenharia de software na indústria de software regional. Viabilizar atividade econômica de alto valor (produção de software). Criar alternativa econômica para o Estado de Goiás. Fortalecer a indústria de software goiana."
     },
+    {
+        "titulo": "Perfil do egresso",
+        "descricao": "Perfil do egresso",
+        "url": "perfil-do-egresso",
+        "palavras_chaves": [],
+        "area": "Expectativa da formação do profissional",
+        "area_swebok": "",
+        "dados":"O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software. O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos. A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética. As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados."
+    },
+    {
+        "titulo": "Habilidades do egresso",
+        "descricao": "Habilidades do egresso",
+        "url": "habilidades-do-egresso",
+        "palavras_chaves": [],
+        "area": "Expectativa da formação do profissional",
+        "area_swebok": "",
+        "dados":"Da perspectiva de relações pessoais, o egresso deve ser capaz de: Participar de forma harmoniosa, profissional e ética durante a elaboração de produtos de software atribuídos a equipes. Liderar ação contínua de formação de sua própria reputação na área. Participar da comunicação de ideias com clareza, seja na forma verbal ou escrita. Da perspectiva técnica, o egresso deve ser capaz de: Participar de atividades para eliciar, analisar, especificar, validar e gerenciar requisitos de software. Participar da definição da solução de software que atende requisitos, ou seja, da definição da arquitetura e do projeto detalhado desse software. Participar da elaboração de modelos de análise e de projeto (design) de software. Participar da aplicação de técnicas de projeto ao desenvolver softwares concorrentes, distribuídos, orientados a objetos, orientados a eventos e que implementam a persistência de dados. Participar da avaliação de design de software considerando, dentre outros quesitos: abstração, coesão, acoplamento e encapsulamento. Participar da aplicação de técnicas de tratamento de exceção e tolerância a falhas. Auxiliar a escolha de processo e de metodologia de design de software. Auxiliar a revisão de design de software Participar do emprego de estilos, visões, modelos e padrões de arquitetura de software. Participar do projeto de componentes e módulos de software usando modelos, padrões de projeto e notações. Auxiliar a execução de análise estática. Auxiliar a escolha de processos e modelos apropriados para a construção de software. Auxiliar a escolha de linguagens e ferramentas apropriadas para a construção de software. Auxiliar a escolha de frameworks, plataformas e ambientes de construção de construção de software. Participar da construção de software seguindo padrões de gerência de configuração e controle de versão. Participar da coleta e do monitoramento de medidas de qualidade de código. Participar da criação de design detalhado que minimiza a complexidade e melhora a qualidade. Participar da criação de código que implementa projetos detalhados. Indicar o uso de padrões de projeto. Participar da refatoração (refactoring) de código. Participar da construção de software que segue padrões de código. Participar da construção de software que faz uso de técnicas de codificação defensiva. Participar da geração de código a partir de modelos de projeto. Participar do uso apropriado de ferramentas e técnicas de depuração. Participar da criação de testes de unidade. Participar da construção de software que satisfaz objetivos de cobertura de testes. Participar da construção de software que segue estratégias e processos de integração e implantação. Participar da construção e realização de testes de integração. Participar da construção de software em equipe ao colaborar com outros membros da equipe. Participar de revisões e inspeções. Participar da elaboração e implementação de planos de testes. Participar da definição de um ambiente de teste e da correspondente implementação. Participar da identificação, design e implementação de testes. Participar da elaboração de relatórios de testes. Auxiliar a elaboração e execução de plano de transição de software. Auxiliar a elaboração e execução de planos de manutenção de software. Auxiliar a execução de atividades de processos de software. Auxiliar a definição e personalização de processos de software. Auxiliar a implementação e execução de processos de software. Auxiliar a coleta de dados para avaliação de processos de software. Auxiliar a definição e o desenvolvimento de software que satisfaz objetivos e atributos de qualidade. Auxiliar a identificação de medidas de qualidade apropriadas. Auxiliar a elaboração de planos e revisões de qualidade. Participar da construção de software que segue princípios recomendados para segurança de código. Participar da construção de software que segue um plano de gerência de configuração de software. Participar da documentação de software."
+    },
+    {
+        "titulo": "Formação Ética e Função Social do Profissional",
+        "descricao": "Formação Ética e Função Social do Profissional",
+        "url": "formacao-etica-e-funcao-social-do-profissional",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES. Ética é assunto de uma das disciplinas do primeiro semestre do curso, “Computação e Sociedade” (p. 45), e volta a ser explicitamente tratada, junto com aspectos profissionais, na última disciplina do curso “Prática em Engenharia de Software” (p. 75). Nesse caso, a postura ética e profissional é condição a ser observada para aprovação nessa disciplina. O comportamento ético e profissional será trabalhado nas atividades do curso, e não apenas na primeira e última disciplinas. A exigência de uma conduta apropriada em sala de aula, tanto dos docentes quanto dos estudantes, contribui com essa formação. Isso significa promover a qualidade de vida, o respeito à diversidade, o respeito ao meio ambiente. Nesse sentido, não apenas as disciplinas, mas toda e qualquer ação, deve ser pautada pela reflexão do impacto no contexto no qual se insere. Ainda convém destacar que a área possui um código de ética próprio, Código de Ética e Prática Profissional da Engenharia de Software [ACM/IEEE]. Esse código é uma das bases de fundamentação do curso e deve ser observado no convívio diário do curso."
+    },
+    {
+        "titulo": "Formação Técnica",
+        "descricao": "Formação Técnica",
+        "url": "formacao-tecnica",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"A formação técnica proposta para o BES está fundamentada em bases sólidas: as diretrizes curriculares nacionais [MEC 2012], o guia do corpo de conhecimento em Engenharia de Software [SWEBOK 2014], o corpo de conhecimento recomendado para ser trabalhado em um curso de graduação [SE 2014], e o modelo de competência em Engenharia de Software [SWECOM 2014]. Em consequência, o conteúdo abordado no curso não diverge das orientações nacionais nem internacionais. A organização dele, contudo, é uma “contribuição” para a área, dado que se baseia em experiências aprendidas nos anos anteriores, juntamente com uma visão holística do aprendizado em Engenharia de Software, o que contrasta com a frequente apresentação cartesiana dessa área. As atividades do curso se aproximam do emprego da Engenharia de Software em projetos reais, no qual os conhecimentos e habilidades não são exigidos de forma fragmentada e isolada. O isolamento de conteúdo é adequado para a classificação do conhecimento que, sem o devido cuidado, pode induzir a definição de disciplinas. A estratégia de definição das disciplinas do BES é fornecida abaixo."
+    },
+    {
+        "titulo": "Estratégia da definição das disciplinas",
+        "descricao": "Estratégia da definição das disciplinas",
+        "url": "estrategia-da-definicao-das-disciplinas",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"As disciplinas do BES foram definidas com substancial cruzamento de fronteiras de subáreas do conhecimento da Engenharia de Software. A estratégia na qual se define uma disciplina por subárea foi preterida. Convém ressaltar que o corpo de conhecimento da área [SWEBOK 2014] foi extensivamente empregado, mas não como exemplo de organização didática. Em vez da separação de tópicos induzida pela classificação do conhecimento, o conteúdo (ementa) atribuído a cada disciplina do BES inclui tópicos entre os quais há sinergia. Essa orientação é compatível com a prática da Engenharia de Software e não apenas reconhece, mas também respeita os vínculos entre as suas subáreas. Isso resultou em disciplinas coerentes com a prática da Engenharia de Software. A Figura abaixo ilustra uma disciplina X qualquer do BES, composta por conteúdo das subáreas A, B e C. Ou seja, o conteúdo de X não está contido estritamente na subárea A, nem tampouco na B ou na C. Em vez disso, reúne e explora a interdependência de conceitos dessas três subáreas. Figura 1 Disciplina do curso baseada em conhecimento de várias subáreas. As subáreas “requisitos” e “projeto de software”, por exemplo, são contempladas em várias disciplinas do curso e não apenas nas disciplinas nas quais são o foco principal de interesse. A disciplina que enfatiza testes, por exemplo, inclui aspectos de design de software e também de requisitos, assim como aqueles de construção de software. De forma resumida, as disciplinas não são uma projeção cartesiana das 15 subáreas de conhecimento da Engenharia de Software [SWECOM 2014]. Em vez disso, são 18 disciplinas cobrindo reiteradamente várias dessas 15 áreas, sendo que uma delas cobre todas as áreas necessárias para a execução de um projeto real de produção de software (p. 75)."
+    },
+    {
+        "titulo": "Articulação entre Teoria e Prática Profissional",
+        "descricao": "Articulação entre Teoria e Prática Profissional",
+        "url": "articulacao-entre-teoria-e-pratica-profissional",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"O perfil do egresso, definido em outra seção desse documento, exige do egresso o envolvimento com o fazer, com o exercício do conhecimento de Engenharia de Software. Essa articulação é explicitamente estabelecida por meio da seção “Condições mínimas” definida para cada disciplina de Engenharia de Software. Tais condições, em geral, definem o que o egresso pode fazer, em outras palavras, é capaz de realizar com o conhecimento. Ou seja, o que convencionalmente se limita ao conteúdo, ou teoria, deverá ser exercitado, ou prática, e com um nível bem definido de proficiência. A disciplina “Prática em Engenharia de Software” (p. 75) é um ponto explícito do curso no qual a prática é o elemento principal, perfazendo 320 horas. O fazer, contudo, não está restrito a essa disciplina. A capacidade de realização de atividades de desenvolvimento de software é exigência em boa parte das disciplinas."
+    },
+    {
+        "titulo": "Interdisciplinaridade",
+        "descricao": "Interdisciplinaridade",
+        "url": "interdisciplinaridade",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"Produzir software significa, necessariamente, o emprego de pelo menos dois domínios. O domínio da solução, no qual a Engenharia de Software é exercitada e o domínio do problema, que fomenta a existência do software. O domínio do problema é “universal”, pois inclui saúde, educação, segurança, governo, finanças e entretenimento, dentre muitos outros. Fazer software, portanto, por si só, exige o contato com outras áreas do conhecimento. O acesso a outras áreas pode vir das disciplinas do Núcleo Livre (NL). O BES exige para a integralização curricular pelo menos 128 horas de disciplinas do NL. Essas disciplinas são escolhidas pelo estudante dentre todas aquelas oferecidas na UFG. Para ilustrar, no primeiro semestre de 2015 houve oferta de vagas para mais de 300 disciplinas de NL. Ou seja, o conjunto de opções de outras áreas do conhecimento é rico, o que contribui com uma formação ampla do estudante. Convém destacar que tais 128 horas perfazem a quantidade mínima exigida, o estudante pode fazer uso de uma carga horária maior. O mesmo é válido para o estágio não obrigatório e para as atividades complementares. O estudante deve cumprir um mínimo de 192 horas em atividades complementares. A interdisciplinaridade estimulada pelos elementos citados acima é extra curso. Aquela intracurso é tratada tanto pela definição das disciplinas quanto pela disciplina “Prática em Engenharia de Software” (p. 75). Nesses casos a interdisciplinaridade é compulsória, pois faz parte da própria concepção do curso. Adicionalmente, sem restringir a liberdade metodológica do docente, cabe ao NDE orientar a definição de programas de disciplinas que cultivem a interdisciplinaridade."
+    },
+    {
+        "titulo": "Disciplina “Prática em Engenharia de Software”",
+        "descricao": "Disciplina “Prática em Engenharia de Software”",
+        "url": "disciplina-pratica-em-engenharia-de-software",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"Essa disciplina de 320 horas tem como objetivo explícito a participação do estudante em um ou mais projetos integradores que usufruem de conhecimento e habilidades adquiridos por todo o curso. Os projetos exigem o contato com problemas reais, o que exige contato tanto com o conhecimento quanto profissionais de outras áreas. Consulte detalhes na página 75."
+    },
+    {
+        "titulo": "Atividades supervisionadas",
+        "descricao": "Atividades supervisionadas",
+        "url": "atividades-supervisionadas",
+        "palavras_chaves": [],
+        "area": "Princípios Norteadores",
+        "area_swebok": "",
+        "dados":"De acordo com a Resolução  CNE/CES 03/2007 de 2 de julho de 2007, cabe às Instituições de Educação Superior, respeitando o mínimo dos duzentos dias letivos de trabalho acadêmico efetivo, a definição da duração da atividade acadêmica ou do trabalho discente efetivo, o que compreende: (a) preleções e aulas expositivas e (b) atividades práticas supervisionadas, tais como laboratórios, atividades em biblioteca, iniciação científica, trabalhos individuais e em grupo, práticas de ensino e outras atividades no caso das licenciaturas. O BES divide cada hora de atividade acadêmica em 45 minutos de preleções e aulas expositivas e 15 minutos de atividades práticas supervisionadas. O planejamento de cada hora deve estar devidamente registrado no plano de cada disciplina. Em particular, o plano deve incluir de forma clara as atividades práticas supervisionadas."
+    },
+    {
+        "titulo": "Avaliação do processo de ensino e aprendizagem",
+        "descricao": "Avaliação do processo de ensino e aprendizagem",
+        "url": "avaliacao-do-processo-de-ensino-e-aprendizagem",
+        "palavras_chaves": [],
+        "area": "Avaliações e Políticas",
+        "area_swebok": "",
+        "dados":"O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação. O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada. Outra ação relevante do NDE na semana de planejamento pedagógico é apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é uma ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os docentes do curso. A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE (p. 23). De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso (p. 23). Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFG, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios. A avaliação da aprendizagem pode ser materializada de várias formas. São comuns avaliações (provas) escritas e individuais, a avaliação por meio de relatórios ou trabalhos escritos e apresentações orais, dentre outras. A avaliação contínua por meio de exercícios realizados ao longo de toda uma disciplina também é uma forma. De fato, vale ressaltar que um método adequado de avaliação em um cenário não o é em outro. A avaliação do processo de ensino e aprendizagem do BES deve atender, no seu planejamento e na forma contínua de sua execução, o estipulado pelo Regulamento Geral dos Cursos de Graduação (RGCG) da UFG [CEPEC 2012], notadamente em seu Capítulo IV, Seção 1 - “Da verificação da Aprendizagem”. Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular (p. 35), utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores (p. 18), permitir que cada estudante adquira o perfil desejado (p. 15). A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso. Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. 56), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições. Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. 75), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada."
+    },
+    {
+        "titulo": "Avaliação do projeto de curso",
+        "descricao": "Avaliação do projeto de curso",
+        "url": "avalicao-do-projeto-de-curso",
+        "palavras_chaves": [],
+        "area": "Avaliações e Políticas",
+        "area_swebok": "",
+        "dados":"O presente PPC deverá ser revisado formalmente de cinco em cinco anos, em ação proativa, ou em intervalo de tempo menor, na ocorrência de evento que justifique tal decisão. O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente. Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE)."
+    },
+    {
+        "titulo": "Política de qualificação",
+        "descricao": "Política de qualificação",
+        "url": "politica-de-qualificacao",
+        "palavras_chaves": [],
+        "area": "Avaliações e Políticas",
+        "area_swebok": "",
+        "dados":"Desde a criação o Instituto de Informática implementa uma política vigorosa de capacitação do seu corpo docente, a qual inclui a meta de que todos os docentes tenham a titulação mínima de doutor. De fato, a liberação de docentes para prosseguirem os seus estudos de pós-graduação é uma prática comum, em consequência, nenhum pedido para afastamento com o propósito de realizar o doutorado foi negado até o momento. Essa política é acrescentada de regras institucionalizadas para a concessão de afastamento para o pós-doutorado e de licença para capacitação. A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informática ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo. Em harmonia com a política de capacitação docente, o INF é favorável ao aprimoramento e à capacitação de seu corpo Técnico-Administrativo em Educação (TAE). Normalmente, um TAE faz solicitação ao diretor, encarregado de registrar as intenções de afastamento no plano anual de capacitação e conduzir a apreciação das intenções pelo Conselho Diretor do INF, haja vista que é do interesse da unidade fomentar a especialização e capacitação dos seus profissionais. É frequente a liberação das atividades de TAE para que possam participar de treinamentos, tanto em cursos esporádicos quanto em programas de pós-graduação. Em tempo, as ações de extensão do INF reservam vagas exclusivas para participação de TAEs, sem necessidade de pagamento (quando é o caso). Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância com a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. 01 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração. Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs."
+    },
+    {
+        "titulo": "Libras",
+        "descricao": "Libras",
+        "url": "libras",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"O Decreto 5.626/2005 regulamenta a Lei 10.436, de 24 de abril de 2002, e o artigo 18 da Lei 10.098, de 19 de dezembro de 2000. Segundo esse Decreto, a disciplina curricular Libras é obrigatória para vários cursos, dentre eles, as licenciaturas e os cursos de Fonoaudiologia. O Decreto também estabelece que, nos demais cursos, a disciplina curricular Libras seja optativa, conforme o Capítulo II, § 2º: “a Libras constituir-se- á em disciplina curricular optativa nos demais cursos de educação superior”. Em atenção a tal requisito legal, o Bacharelado em Engenharia de Software inclui a disciplina Libras como optativa, no oitavo período do curso."
+    },
+    {
+        "titulo": "Política de educação ambiental",
+        "descricao": "Política de educação ambiental",
+        "url": "politica-de-educacao-ambiental",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"A Lei 9.795, de 27 de abril de 1999, institui a Política Nacional de Educação Ambiental, que é regulamentada pelo Decreto 4.281, de 25 de junho de 2002. Conforme essa Lei, Seção II, Art. 10, “a educação ambiental será desenvolvida como uma prática educativa integrada, contínua e permanente em todos os níveis e modalidades do ensino formal”. Adicionalmente, lê-se na Seção II, Art. 10, § 1º: “a educação ambiental não deve ser implantada como disciplina específica no currículo de ensino”. O destaque (negrito) é do presente documento. O Bacharelado em Engenharia de Software trata a Educação Ambiental por duas linhas contínuas de atuação: uma delas baseada no planejamento das disciplinas e outra em programa institucional do Instituto de Informática, ambas comentadas abaixo."
+    },
+    {
+        "titulo": "Planejamento das disciplinas",
+        "descricao": "Planejamento das disciplinas",
+        "url": "planejamento-das-disciplinas",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"O planejamento de cada turma deve se inspirar em possíveis estratégias de inserção de questões ambientais. Por exemplo, adoção de material em formato digital em vez de formato impresso. A apresentação do conteúdo de cada disciplina também pode se beneficiar do volume significativo de dados sobre o meio ambiente. Por exemplo, área desmatada ao longo do tempo; áreas de preservação; consumo de energia; emissão de CO 2 ; qualidade do ar; consumo de materiais poluentes e geração de lixo eletrônico. Tais dados podem ser empregados para ilustrar o funcionamento de algoritmos e visualização de informações, dentre outras possibilidades. Convém destacar que esses exemplos devem ser vistos como elementos de inspiração, a serem renovados continuamente."
+    },
+    {
+        "titulo": "Programa institucional",
+        "descricao": "Programa institucional",
+        "url": "programa-institucional",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"A UFG executa um Plano de Logística Sustentável (PLS), que estabelece práticas de sustentabilidade e racionalização de gastos e processos na administração pública [PLS]. Esse plano é internalizado no Instituto de Informática por um Programa Institucional de extensão. O PLS une o cotidiano da prática acadêmica com atitudes “sustentáveis” por meio de recomendações simples, como a impressão em ambos os lados de uma folha e a redução do uso de copos descartáveis, dentre muitas outras. O Programa Institucional reúne ações que contemplam as orientações do PLS. O objetivo é colocar em prática essas orientações. Por exemplo, enquanto o PLS sugere a coleta seletiva, esse programa cria um repositório para coleta de pilhas e baterias já utilizadas, além de assegurar que aquele material coletado será descartado de forma correta. O Programa Institucional possui objetivos e ações que incluem a educação ambiental. As opções de ações variam. Dentre elas uma é constante: avaliação dos resultados. Dentre as demais: Cursos de extensão cuja inscrição seja lixo eletrônico; Elaboração de material de conscientização sobre consumo parcimonioso de água e energia; Palestras e cursos sobre TI Verde (green computing); Pesquisa sobre consumo de energia por datacenters; Divulgação e destaque de informações sobre o meio ambiente; Monitoramento e divulgação de informações ambientes sobre Goiás; Divulgação de softwares que promovem o meio ambiente, por exemplo, evitam deslocamentos, evitam consumo de energia."
+    },
+    {
+        "titulo": "Resolução Nº 1 de 17 de junho de 2004",
+        "descricao": "Resolução Nº 1 de 17 de junho de 2004",
+        "url": "resolucao-n-1-de-17-de-junho-de-2004",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"A Resolução Nº 1, de 17 de junho de 2004, trata das Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana. O objetivo é claro: combater o racismo e as discriminações que atingem particularmente os negros. Nessa perspectiva, propõe a divulgação e produção de conhecimentos, a formação de atitudes, posturas e valores que eduquem cidadãos orgulhosos de seu pertencimento étnico-racial, descendentes de africanos, povos indígenas, descendentes de europeus, de asiáticos. Tal objetivo pressupõe a “adoção de políticas educacionais e de estratégias pedagógicas de valorização da diversidade”, conforme consta na Resolução, assim como os princípios a serem observados para atendê-la: (a) consciência política e histórica da diversidade; (b) fortalecimento de identidades e de direitos e (c) ações educativas de combate ao racismo e a discriminações. O Art. 7.º da Resolução ainda destaca: “as instituições de ensino superior, respeitada a autonomia que lhe é devida, incluirão nos conteúdos de disciplinas e atividades curriculares dos diferentes cursos que ministram, a Educação das Relações Étnico-Raciais, bem como o tratamento de questões e temáticas que dizem respeito aos afrodescendentes. Tendo em vista o requisito legal estabelecido pela Resolução, duas linhas de atuação são adotadas pelo Bacharelado em Engenharia de Software: inserção de conteúdo pertinente em duas disciplinas curriculares obrigatórias e o Programa Institucional de extensão do Instituto de Informática. Ambas comentadas abaixo."
+    },
+    {
+        "titulo": "Disciplinas de graduação obrigatórias",
+        "descricao": "Disciplinas de graduação obrigatórias",
+        "url": "disciplinas-de-graduacao-obrigatorias",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"As disciplinas “Computador e Sociedade” (p. 41) e “Interação Humano-Computador” (p. 46) incluem, em seus ementários, tópicos pertinentes às exigências da Resolução. Em particular, remetem para o conhecimento de questões pertinentes ao continente africano e para o conhecimento e respeito à diversidade."
+    },
+    {
+        "titulo": "Programa institucional de Extensão",
+        "descricao": "Programa institucional de Extensão",
+        "url": "programa-institucional-de-extensao",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"O Programa Institucional de extensão do Instituto de Informática será realizado por meio de ações, boa parte com ênfase na socialização de conhecimento sobre questões pertinentes à formação dos brasileiros, o que invariavelmente inclui os negros e indígenas. Esse conhecimento é indispensável para a promoção da diversidade, do respeito às diferenças e da igualdade independente das crenças, do sexo, da idade, da cor, da condição social. O Instituto de Informática, por meio desse programa de extensão, dedicado exclusivamente às relações étnico-raciais e ao meio ambiente, oferece atuação contínua sobre esses tópicos, durante toda a permanência dos seus estudantes nessa unidade, sejam de graduação ou pós-graduação. Especificamente sobre questões de cunho étnico-racial, sem a intenção de ser uma apresentação exaustiva, nem restritiva, são identificadas algumas ações possíveis: Ações afirmativas por meio de cursos de extensão. Ações para promoção da diversidade. Palestras sobre a construção de uma sociedade justa. Palestras sobre a diversidade da formação dos brasileiros. Palestras sobre a história afro-brasileira, sobre a história africana. Palestras sobre os povos indígenas. Apresentações artísticas que valorizem a cultura africana e indígena."
+    },
+    {
+        "titulo": "Diretrizes nacionais para Educação em Direitos Humanos",
+        "descricao": "Diretrizes nacionais para Educação em Direitos Humanos",
+        "url": "diretrizes-nacionais-para-educacao-em-direitos-humanos",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"A disciplina “Computador e Sociedade” (p. 41) trata questões relevantes acerca de direitos humanos: aspectos profissionais; participação de mulheres na computação e evolução de aplicações com acessibilidade, dentre outras, nas quais os direitos humanos precisam de discussões mais aprofundadas na computação. Na disciplina “Interação Humano-Computador” (p. 46) as características humanísticas, culturais, de direitos humanos e de aspectos políticos serão abordados em mais profundidade."
+    },
+    {
+        "titulo": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
+        "descricao": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
+        "url": "protecao-dos-direitos-da-pessoa-com-transtornos-do-espectro-autista",
+        "palavras_chaves": [],
+        "area": "Requisitos legais e normativos",
+        "area_swebok": "",
+        "dados":"A proteção dos direitos da pessoa com transtorno do espectro autista é fundamentada na Lei N.º 12.764 de 27 de dezembro de 2012, que institui a política nacional de proteção dos direitos da pessoa com transtorno do espectro autista, e altera o § 3.º do Art. 98 da Lei N.º 8.112, de 11 de dezembro de 1990. Esse requisito legal é atendido por meio da disciplina obrigatória “Interação Humano-Computador”, que inclui em seu ementário tópicos pertinentes ao tratamento de características humanísticas e biológicas na construção de interfaces de usuário, o que possibilita a socializar informações relevantes para que portadores do Transtorno do Espectro Autista possam ser adequadamente considerados por meio de suas necessidades especiais. "
+    },
+    {
+        "titulo": "Matriz curricular",
+        "descricao": "Matriz curricular",
+        "url": "matriz-curricular",
+        "palavras_chaves": [],
+        "area": "Estrutura Curricular",
+        "area_swebok": "",
+        "dados":"A matriz curricular do curso perfaz 44 disciplinas descritas nas Tabelas 1, 2 e 3. A Tabela 1 apresenta a lista das 17 disciplinas de formação básica em computação. Em particular, são 4 disciplinas oferecidas pelo Instituto de Matemática e Estatística (IME) e as outras 13 oferecidas pelo INF. Todas elas são obrigatórias e pertencem ao Núcleo Comum (NC). Tabela 1 Disciplinas de formação básica (obrigatórias). Não há co-requisito.Nº	Disciplina	Pré	Unidade	TEO	PRA	CHT	Núcleo1	Computação e Sociedade		INF	32	0	32	NC2	Introdução à Programação		INF	48	80	128	NC3	Cálculo 1A		IME	96	0	96	NC4	Fundamentos de Matemática para Computação		INF	64	0	64	NC5	Arquitetura de Computadores	4	INF	64	0	64	NC6	Algoritmos e Estruturas de Dados 1	2	INF	32	32	64	NC7	Probabilidade e Estatística A	3	IME	64	0	64	NC8	Álgebra Linear		IME	64	0	64	NC9	Lógica Matemática	4	INF	64	0	64	NC10	Programação Orientada a Objetos	2	INF	32	32	64	NC11	Algoritmos e Estruturas de Dados 2	6	INF	64	0	64	NC12	Linguagens e Paradigmas de Programação	3	INF	32	32	64	NC13	Engenharia de Software		INF	64	0	64	NC14	Análise e Projeto de Algoritmos	4, 11	INF	64	0	64	NC15	Interação Humano-Computador	6, 7	INF	32	32	64	NC16	Banco de Dados	9	INF	48	16	64	NC17	Projeto de Software	10, 13	INF	64	0	64	NCAs disciplinas da Tabela 1 fornecem uma sólida formação em Computação, o que inclui o recomendado para a formação em Matemática. Além dessas, outras seis de Computação são oferecidas como optativas na Tabela 3 (p. 33).As disciplinas da Tabela 2, por outro lado, são específicas da Engenharia de Software. Todas elas são obrigatórias, fazem parte do Núcleo Específico (NE) e são oferecidas pelo INF.Tabela 2 Disciplinas de Engenharia de Software (obrigatórias). Não há pré(co)-requisito. Nº	Disciplina	Pré	Unidade	TEO	PRA	CHT	Núcleo18	Construção de Software		INF	48	80	128	NE19	Modelagem de Software		INF	16	48	64	NE20	Processos de Software		INF	32	32	64	NE21	Engenharia de Sistemas		INF	64	0	64	NE22	Design de Software		INF	48	80	128	NE23	Domínios de Software		INF	16	48	64	NE24	Processos de Qualidade de Software		INF	48	16	64	NE25	Gerência de Projeto de Software		INF	32	32	64	NE26	Software Concorrente e Distribuído		INF	32	32	64	NE27	Experiência do Usuário de Software		INF	32	32	64	NE28	Arquitetura de Software		INF	32	32	64	NE29	Requisitos de Software		INF	32	32	64	NE30	Governança e Gestão de Serviços de Software		INF	48	16	64	NE31	Software para Sistemas Ubíquos		INF	32	32	64	NE32	Software para Persistência de Dados		INF	32	32	64	NE33	Padrões de Arquitetura de Software		INF	32	32	64	NE34	Testes de Software		INF	32	32	64	NE35	Prática em Engenharia de Software		INF	0	320	320	NE São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na Tabela 3 abaixo. Tabela 3 Disciplinas optativas. Não há co-requisito. Nº	Disciplina (opção)	Pré	Unidade	TEO	PRA	CHT	Núcleo	Optativa 36	Pesquisa Operacional	8	INF	64	0	64	NE	1 37	Linguagens Formais e Autômatos	4	INF	64	0	64	NE	 38	Sistemas Operacionais	5	INF	64	0	64	NE	 39	Compiladores	11, 37	INF	64	0	64	NE	2 40	Redes de Computadores		INF	64	0	64	NE	 41	Introdução à Língua Brasileira de Sinais		LETRAS	64	0	64	NE	 42	Sistemas Distribuídos	10	INF	64	0	64	NE	3 43	Metodologia e Experimentação em Engenharia de Software		INF	64	0	64	NE44	Mercado e Economia de Software	INF	64	0	64	NE"
+    },
+    {
+        "titulo": "Núcleo livre",
+        "descricao": "Núcleo livre",
+        "url": "nucleo-livre",
+        "palavras_chaves": [],
+        "area": "Estrutura Curricular",
+        "area_swebok": "",
+        "dados":"O Núcleo Livre (NL) é o conjunto de conteúdos voltado para promover a interdisciplinaridade e a transdisciplinaridade, dentre outros objetivos. A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG].  Tais 128 horas perfazem 4% da carga horária do curso, conforme a Tabela 4 (p. 34)."
+    },
+    {
+        "titulo": "Atividades complementares",
+        "descricao": "Atividades complementares",
+        "url": "atividades-complementares",
+        "palavras_chaves": [],
+        "area": "Estrutura Curricular",
+        "area_swebok": "",
+        "dados":"O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso na Tabela 4 (p. 34). As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software."
+    },
+    {
+        "titulo": "Distribuição da carga horária",
+        "descricao": "Distribuição da carga horária",
+        "url": "distribuicao-da-carga-horaria",
+        "palavras_chaves": [],
+        "area": "Estrutura Curricular",
+        "area_swebok": "",
+        "dados":"As Tabelas 1, 2 e 3, juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, seções acima, resultam nos valores compilados na Tabela 4. Tabela 4 Distribuição da carga horária. Componentes curriculares	CHT	Percentual Núcleo Comum (NC)	1088	34% Núcleo Específico (NE) (obrigatório)	1600	50% Núcleo Específico (NE) (optativo)	192	6% Núcleo Livre (NL)	128	4% Atividades Complementares	192	6% CARGA HORÁRIA TOTAL (CHT) 3200 100%"
+    },
+    {
+        "titulo": "Fluxo sugerido",
+        "descricao": "Fluxo sugerido",
+        "url": "fluxo-sugerido",
+        "palavras_chaves": [],
+        "area": "Estrutura Curricular",
+        "area_swebok": "",
+        "dados":"Conforme o diagrama abaixo, as disciplinas estão organizadas em nove períodos letivos. Os quatro primeiros períodos concentram as disciplinas de formação básica em Computação: disciplinas de Computação propriamente ditas e aquelas de Matemática. Os demais períodos incluem disciplinas com ênfase na formação específica em Engenharia de Software. Figura 2 Fluxo sugerido. Os nove semestres são detalhados nas tabelas seguintes. 1º PERÍODO Disciplina CHT Natureza Núcleo Computação e Sociedade 32 Obrigatória NC Introdução à Programação 128 Obrigatória NC Cálculo 1A 96 Obrigatória NC Fundamentos de Matemática para Computação 64 Obrigatória NC Carga horária do período 320  Carga horária acumulada 320  2º PERÍODO Disciplina CHT Natureza Núcleo Arquitetura de Computadores 64 Obrigatória NC Algoritmos e Estruturas de Dados 1 64 Obrigatória NC Probabilidade e Estatística A 64 Obrigatória NC Álgebra Linear 64 Obrigatória NC Lógica Matemática 64 Obrigatória NC Carga horária do período 320  Carga horária acumulada 640 3º PERÍODO Disciplina CHT Natureza Núcleo Programação Orientada a Objetos 64 Obrigatória NC Algoritmos e Estruturas de Dados 2 64 Obrigatória NC Linguagens e Paradigmas de Programação 64 Obrigatória NC Engenharia de Software 64 Obrigatória NC OPTATIVA 1 64 Optativa NE Carga horária do período 320  Carga horária acumulada 960 4º PERÍODO Disciplina CHT Natureza Núcleo Análise e Projeto de Algoritmos 64 Obrigatória NC Interação Humano-Computador 64 Obrigatória NC Banco de Dados 64 Obrigatória NC Projeto de Software 64 Obrigatória NC OPTATIVA 2 64 Optativa NE Carga horária do período 320  Carga horária acumulada 1280 5º PERÍODO Disciplina CHT Natureza Núcleo Construção de Software 128 Obrigatória NE Modelagem de Software 64 Obrigatória NE Processos de Software 64 Obrigatória NE Engenharia de Sistemas 64 Obrigatória NE Carga horária do período 320  Carga horária acumulada 1600 6º PERÍODO Disciplina CHT Natureza Núcleo Design de Software 128 Obrigatória NE Domínios de Software 64 Obrigatória NE Processos de Qualidade de Software 64 Obrigatória NE Gerência de Projeto de Software 64 Obrigatória NE Carga horária do período 320  Carga horária acumulada 1920 7º PERÍODO Disciplina CHT Natureza Núcleo Software Concorrente e Distribuído 64 Obrigatória NE Experiência do Usuário de Software 64 Obrigatória NE Arquitetura de Software 64 Obrigatória NE Requisitos de Software 64 Obrigatória NE Governança e Gestão de Serviços de Software 64 Obrigatória NE Carga horária do período 320  Carga horária acumulada 2240 8º PERÍODO Disciplina CHT Natureza Núcleo Software para Computação Ubíqua 64 Obrigatória NE Software para Persistência de Dados 64 Obrigatória NE Padrões de Arquitetura de Software 64 Obrigatória NE Testes de Software 64 Obrigatória NE OPTATIVA 3 64 Optativa NE Carga horária do período 320 Carga horária acumulada 2560 9º PERÍODO Disciplina CHT Natureza Núcleo Prática em Engenharia de Software 320 Obrigatória NECarga horária do período 320 Carga horária acumulada 2880"
+    }
 ],
 "areas":[
     {
@@ -115,16 +349,84 @@
         "url": null
     },
     {
-        "Contexto",
+        "nome": "Contexto",
+        "url": "contexto",
+        "descricao": "Contexto",
+        "dados": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes."
+    },
+    {
+        "nome": "Objetivos",
         "url": null
     },
     {
-        "Objetivos",
+        "nome": "Expectativa da formação do profissional",
         "url": null
     },
     {
-        "Exectativa da formação do profissional",
-        "url": "expectativa-da-formacao-do-profissional"
+        "nome": "Princípios Norteadores",
+        "url": null
+    },
+    {
+        "nome": "Núcleo Docente Estruturante (NDE)",
+        "url": "nucleo-docente-estruturante",
+        "descricao": "Núcleo Docente Estruturante (NDE)",
+        "dados": "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios: O NDE possui duas prioridades. A maior prioridade é colocar em prática o Projeto Pedagógico do Curso (PPC). A prioridade seguinte é mantê-lo relevante.Qualquer questão que diz respeito às prioridades é do interesse do NDE e pode resultar em ação. Toda ação necessariamente deve gerar valor e estar alinhada com as prioridades. Uma ação constante e preconcebida é zelar pelos princípios aqui descritos. O NDE entende que o diálogo é necessário e que a diversidade é natural, assim como o confronto de ideias. Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui: Acompanhar a execução das ações de ensino, pesquisa e extensão pertinentes ao curso; Acompanhar a avaliação das ações do curso; Emitir opinião sobre ações pertinentes ao curso; Monitorar o desempenho dos estudantes; Promover ações que possam reduzir reprovações; Monitorar resultados dos trabalhos de conclusão de curso; Monitorar ações de estágios dos estudantes do curso; Acompanhar e se pronunciar acerca de reclamações pertinentes ao curso; Avaliar de forma contínua o PPC do curso; Acompanhar e promover a qualificação de docentes; Acompanhar e promover a qualificação do corpo de técnico-administrativos. O NDE, portanto, não se apresenta como órgão ou mecanismo deliberativo, mas consultivo. Reúne docentes que continuamente refletem sobre questões pertinentes ao curso e, em consequência, definem ações que assistem, apoiam e fomentam a qualidade do curso, bem como contribuem com a execução dessas ações. A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso). Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010."
+    },
+    {
+        "nome": "Política e gestão de estágio não obrigatório",
+        "url": "politica-e-gestao-de-estagio-nao-obrigatorio",
+        "descricao": "Política e gestão de estágio não obrigatório",
+        "dados": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software."
+    },
+    {
+        "nome": "Trabalho de Conclusão de Curso (TCC)",
+        "url": "trabalho-de-conclusao-de-curso",
+        "descricao": "Trabalho de Conclusão de Curso (TCC)",
+        "dados": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem como objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e é responsável pela avaliação tanto do relatório quanto da apresentação."
+    },
+    {
+        "nome": "Integração ensino, pesquisa e extensão",
+        "url": "integracao-ensino-pesquisa-e-extensao",
+        "descricao": "Integração ensino, pesquisa e extensão",
+        "dados": "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras. O estágio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa. A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal. Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção o ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino). A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso."
+    },
+    {
+        "nome": "Avaliações e Políticas",
+        "url": null
+    },
+    {
+        "nome": "Requisitos legais e normativos",
+        "url": "requisitos-legais-e-normativos",
+        "descricao": "Requisitos legais e normativos",
+        "dados": "O curso de Bacharelado em Engenharia de Software contempla requisitos legais específicos, a saber, Libras, Política de Educação Ambiental, e Educação das Relações Étnico-raciais e para o Ensino da História e Cultura Afro-brasileira e Indígena, conforme detalhado nas seções seguintes. A atenção a tais requisitos se verifica por meio de disciplinas e de um Programa de Extensão, devidamente institucionalizado na unidade executora do curso. Está além do escopo do presente documento detalhar o Programa de Extensão. Abaixo, apenas aspectos relevantes para o PPC são destacados."
+    },
+    {
+        "nome": "Estrutura Curricular",
+        "url": null
+    },
+    {
+        "nome": "Disciplinas de formação básica (obrigatórias)",
+        "url": null
+    },
+    {
+        "nome": "Disciplinas Optativas",
+        "url": null
+    },
+    {
+        "nome": "Disciplinas Específicas de Engenharia de Software",
+        "url": null
+    },
+    {
+        "nome": "Referências",
+        "url": "referencias",
+        "descricao": "Referências",
+        "dados": "AAEN, I.; BØTTCHER, P.; MATHIASSEN, L. &quot;The Software Factory: Contributions and Illusions&quot;, Proceedings of the Twentieth Information Systems Research Seminar. Scandinavia, Oslo, 1997. ACM/IEEE. Código de Ética e Prática Profissional da Engenharia de Software. Disponível em http://www.acm.org/about/se-code. Consultado em 20/07/2016. APOEMA. Apoema: Tecnologia da Inovação. Órgão complementar de pesquisa e desenvolvimento do Instituto de Informática. Disponível em http://apoema.inf.ufg.br. [BES1] Bacharelado em Engenharia de Software na Universidade Federal de Goiás, Fórum de Educação em Engenharia de Software (Simpósio Brasileiro de Engenharia de Software), número 43/08, páginas 16-21, Campinas/SP, 17/10/2008, ISSN 0103-9741. [BES2] Engenharia de Software: Graduação (bacharelado) em Engenharia de Software, Engenharia de Software Magazine, Ano I, 10a. edição, páginas 56-60, fevereiro de 2009, ISSN 1983127-7. CEPEC. RESOLUÇÃO CEPEC 1122/2012, 9 de novembro de 2012. Universidade Federal de Goiás (UFG), 2012. CEPEC. RESOLUÇÃO CEPEC 1286/2014, 6 de junho de 2014. Universidade Federal de Goiás (UFG), 2014. CNE. Conselho Nacional de Educação/Câmara de Educação Superior. Parecer CNE/CES 136/2012, 2012. COMTEC. Comunidade Tecnológica de Goiás (COMTEC). Disponível em: http://www.comtecgo.com.br/. CONSUNI. RESOLUÇÃO CONSUNI 10/2008, 27/06/2008. Universidade Federal de Goiás (UFG), 2008. CONSUNI. RESOLUÇÃO CONSUNI 02/2014, 24 de janeiro de 2014. Universidade Federal de Goiás (UFG), 2014. CUSUMANO, M. A. &quot;Factory Concepts and Practices in Software Development&quot;. Annals of the History of Computing, 13(1): 3–32, 1991. IBGE. Portal http://www.ibge.gov.br/ consultado em 18/05/2014. [MEC 2012] Diretrizes Curriculares Nacionais para os cursos de graduação em Computação. Parecer CNE/CES 136/2012. Disponível em http://goo.gl/ks2R2O. OECD. Education at a Glance 2012: OECD indicators, OECD Publishing, 2012, ISBN 978-92- 64-17929- 5. PLS. Plano de Logística Sustentável da Universidade Federal de Goiás. Disponível em https://sustentabilidade.prodirh.ufg.br/. [SE 2014] Software Engineering 2014: Curriculum Guidelines for Undergraduate Degree Programs in Software Engineering. Disponível em http://www.acm.org/education/se2014.pdf. [SWEBOK 2014 ] B. Pierre e Fairley, R. E.. Guide to the Software Engineering Body of Knowledge, V3.0, IEEE Computer Society, 2014. Disponível em http://swebok.org. [SWECOM 2014] Software Engineering Competency Model (SWECOM), IEEE Computer Society, 2014. ISBN 978-0- 7695-5373- 3. Disponível em https://www.computer.org/web/peb/swecom. Apêndice A É prevista a migração de estudantes veteranos para o presente currículo (PPC). Nesses casos, a equivalência de disciplinas é realizada conforme as tabelas de equivalência seguintes. Houve esforço no sentido de maximizar os aproveitamentos e, dessa forma, reduzir esforço necessário para integralização dos estudantes sem, contudo, prejudicar a formação desejada. A primeira tabela define como disciplinas do PPC de 2009-1 podem ser aproveitadas no PPC proposto no presente documento (2017-1). Ou seja, apresenta como disciplinas já  cursadas por veteranos poderão ser aproveitadas quando houver migração para o novo currículo. A segunda tabela mostra como disciplinas do PPC de 2017-1 podem ser aproveitadas em termos de disciplinas do PPC de 2009-1."
+    },
+    {
+        "nome": "Aproveitamentos",
+        "url": "aproveitamentos",
+        "descricao": "Integração ensino, pesquisa e extensão",
+        "dados": "DISCIPLINA DO PPC DE 2009-1 CH NATUREZA APROVEITA COMO – NO PPC DE 2017-1 CH NATUREZA Introdução à Engenharia de Software 64 NE – OBR Engenharia de Software 64 NE – OBR Ética, Normas e Postura Profissional 64 NC – OBR Computação e Sociedade 32 NC – OBR Matemática Discreta 64 NC – OBR Fundamentos de Matemática para Computação 64 NC – OBR Lógica 64 NC – OBR Lógica Matemática 64 NC – OBR Introdução à Programação 64 NC – OBR Introdução à Programação 128 NC – OBR Método de Desenvolvimento de Software 64 NC – OBR Programação Orientada a Objetos 64 NC – OBR Construção de Software 64 NC – OBR Domínios de Software 64 NC – OBR Arquitetura de Computadores 64 NC – OBR Arquitetura de Computadores 64 NC – OBR Algoritmos: Fundamentos e Estruturas de Dados 64 NC – OBR Algoritmos e Estruturas de Dados 1 64 NC – OBR Banco de Dados 64 NC – OBR Banco de Dados 64 NE – OBR Engenharia de Software 64 NE – OBR Engenharia de Software 64 NE – OBR Sistema Operacional 64 NE – OBR Sistemas Operacionais 64 NC – OBR Redes e Sistemas Distribuídos 64 NE – OBR Redes de Computadores 64 NC – OBR Algoritmos: Ordenação e Busca 64 NC – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Linguagens de Programação 64 NE – OBR Linguagens e Paradigmas de Programação 64 NE – OPT Requisitos de Software 64 NE – OBR Requisitos de Software 64 NC – OBR Projeto Detalhado de Software 64 NE – OBR Projeto de Software 64 NE – OPT Processo de Software 64 NE – OBR Processos de Software 64 NE – OBR Algoritmos em Grafos 64 NC – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Interação Homem-Computador 64 NE – OBR Interação Humano-Computador 64 NC – OBR Segurança 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NE – OBR Qualidade de Software 64 NE – OBR Processos de Qualidade de Software 64 NE – OPT Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Verificação e Validação 64 NE – OBR Testes de Software 64 NC – OBR Gerência de Configuração de Software 64 NC – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Manutenção de Software 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NE – OPT Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NC – OBR Métodos e Ferramentas da Engenharia de Software 64 NC – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Experimentação em Engenharia de Software 64 NC – OBR Metodologia e Experimentação em Engenharia de Software 64 NE – OBR Leitura de Software 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Software Concorrente 64 NC – OBR Software Concorrente e Distribuído 64 NC – OBR Engenharia Econômica para Software 64 NC – OBR Mercado e Economia de Software 64 NE – OBR Software para Web 64 NE – OBR Experiência do Usuário em Software 64 NE – OBR Software para Dispositivos Móveis 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OBR Software para Persistência 64 NC – OBR Software para Persistência de Dados 64 NE – OBR Integração de Aplicações E Técnicas Avançadas de Construção de Software 64 NE – OBR Design de Software 128 NE – OBR 64 NE – OBR Tópicos em Engenharia de Software 64 NE – OPT Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR LIBRAS 64 NE – OPT Introdução à Língua Brasileira de Sinais 64 NE – OPT Mercado de Software 64 NE – OPT Mercado e Economia de Software 64 NE – OPT Prática em Engenharia de Software 64 NE – OBR Modelagem de Software 64 NE – OBR Integração 1 Integração 2 64 NE – OBR Padrões de Arquitetura de Software 64 NE – OBR 64 NE – OBR DISCIPLINA DO PPC DE 2017-1 CH NATUREZA APROVEITA COMO – NO PPC DE 2009-1 CH NATUREZA Computação e Sociedade 32 NC – OBR Ética, Normas e Postura Profissional 64 NC - OBR Introdução à Programação 128 NC – OBR Introdução à Programação 64 NC - OBR Cálculo 1A 64 NC – OBR Optativa 64 NC – OBR Fundamentos de Matemática para Computação 64 NC – OBR Matemática Discreta 64 NC – OBR Arquitetura de Computadores 64 NE – OPT Arquitetura de Computadores 64 NC – OBR Algoritmos e Estruturas de Dados 1 64 NE – OPT Algoritmos: Fundamentos e Estruturas de Dados 64 NC – OBR Probabilidade e Estatística A 64 NE – OBR Optativa 64 NC – OBR Álgebra Linear 64 NC – OBR Optativa 64 NC – OBR Lógica Matemática 64 NC – OBR Lógica 64 NE – OBR Programação Orientada a Objetos 64 NE – OBR Método de Desenvolvimento de Software 64 NE – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Algoritmos: Ordenação e Busca 64 NC – OBR Optativa 1 64 NE – OPT Optativa 64 NC – OBR Linguagens e Paradigmas de Programação 64 NC – OBR Linguagens de Programação 64 NE – OBR Engenharia de Software 64 NE – OBR Engenharia de Software 64 NC – OBR Análise e Projeto de Algoritmos 64 NE – OBR Algoritmos em Grafos 64 NC - OBR Interação Humano-Computador 64 NE – OBR Interação Homem-Computador 64 NE - OBR Optativa 2 64 NE – OBR Optativa 64 NC - OBR Banco de Dados 64 NE – OBR Banco de Dados 64 NC - OBR Projeto de Software 64 NC – OBR Projeto Detalhado de Software 64 NC - OBR  Modelagem de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Software 64 NC – OBR Processo de Software 64 NC – OBR Engenharia de Sistemas 64 NE – OBR Optativa 64 NE – OBr Design de Software 128 NE – OBR Projeto Detalhado de Software E Arquitetura de Software 64 NC – OBR Domínios de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Qualidade de Software 64 NE – OBR Qualidade de Software 64 NC – OBR Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NE – OBR Software Concorrente e Distribuído 64 NE – OBR Software Concorrente 64 NC – OBR Experiência do Usuário de Software 64 NE – OBR Interação Homem-Computador 64 NC – OBR Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Requisitos de Software 64 NC – OBR Requisitos de Software 64 NE – OBR Governança e Gestão de Serviços de Software 64 NE – OBR Gerência de Configuração de Software 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OPT Software para Dispositivos Móveis 64 NE – OPT Software para Persistência de Dados 64 NE – OBR Software para Persistência 64 NE - OBR Padrões de Arquitetura de Software 64 NE – OBR Arquitetura de Software OU Projeto Detalhado de Software 64 NE – OBR Testes de Software 64 NE – OPT Verificação e Validação 64 NC – OBR Optativa 3 64 NE – OPT Optativa 64 NC – OBR Prática em Engenharia de Software 320 NE – OBR - 64 NC – OBR Sistemas Operacionais 64 NE – OPT Sistema Operacional 64 NC - OBR Pesquisa Operacional 64 NE – OPT Optativa 64 NE – OBR Linguagens Formais e Autômatos 64 NE – OBR Optativa 64 NC – OBR Redes de Computadores 64 NE – OBR Redes e Sistemas Distribuídos 64 NC – OBR Introdução à Língua Brasileira de Sinais 64 NE – OBR LIBRAS 64 NC – OBR Compiladores 64 NC – OBR Optativa 64 NC – OBR Sistemas Distribuídos 64 NE – OPT Redes e Sistemas Distribuídos 64 NC – OBR Mercado e Economia de Software 64 NC – OBR Mercado de Software 64 NC - OBR Metodologia e Experimentação em Engenharia de Software 64 NC – OBR Experimentação em Engenharia de Software 64 NC - OBR Design de Software 128 NE – OBR Projeto Detalhado de Software E Arquitetura de Software 64 NC – OBR Domínios de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Qualidade de Software 64 NE – OBR Qualidade de Software 64 NC – OBR Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NE – OBR Software Concorrente e Distribuído 64 NE – OBR Software Concorrente 64 NC – OBR Experiência do Usuário de Software 64 NE – OBR Interação Homem-Computador 64 NC – OBR Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Requisitos de Software 64 NC – OBR Requisitos de Software 64 NE – OBR Governança e Gestão de Serviços de Software 64 NE – OBR Gerência de Configuração de Software 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OPT Software para Dispositivos Móveis 64 NE – OBR Software para Persistência de Dados 64 NE – OBR Software para Persistência 64 NE – OBR Padrões de Arquitetura de Software 64 NE – OBR Arquitetura de Software OU Projeto Detalhado de Software 64 NE – OBR Testes de Software 64 NE – OPT Verificação e Validação 64 NE – OBR Optativa 3 64 NE – OPT Optativa 64 NE – OBR Prática em Engenharia de Software 320 NE – OBR - 64 NE – OBRSistemas Operacionais 64 NE – OPT Sistema Operacional 64 NC – OBR Pesquisa Operacional 64 NE – OPT Optativa 64 NE – OBR Linguagens Formais e Autômatos 64 NE – OBR Optativa 64 NC – OBR Redes de Computadores 64 NE – OBR Redes e Sistemas Distribuídos 64 NC – OBR Introdução à Língua Brasileira de Sinais 64 NE – OBR LIBRAS 64 NC – OBR Compiladores 64 NE – OPT Optativa 64 NC – OBR Sistemas Distribuídos 64 NE – OPT Redes e Sistemas Distribuídos 64 NC – OBR Mercado e Economia de Software 64 NC – OBR Mercado de Software 64 NC - OBR Metodologia e Experimentação em Engenharia de Software 64 NC – OBR Experimentação em Engenharia de Software 64 NC - OBR"
     }
     ]
 }

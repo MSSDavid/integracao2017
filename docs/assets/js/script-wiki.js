@@ -28,7 +28,7 @@ function inserirTopo(classe){
 
 function ajustaMenu() {
     altura = parseInt($(window).height()) - 50;
-    $(".menu").css("height", altura+"px");
+    $(".menu").css("height", "auto");
 }
 
 function inserirMenu(){
@@ -45,12 +45,19 @@ function inserirMenu(){
       var $menu = document.querySelector('.menu');
       $menu.insertAdjacentHTML('beforeend', "<ul>");
       for(i = 0; i < areas.length; i++){
-          $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+urls[i]+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
+          var id = areas[i].replace( /\s/g, '' );
+          if(urls[i] != null){
+              $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><a href="+urls[i]+'.html'+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></a></li>");
+          }else{
+              $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
+          }
       }
+      var dados2 = data.topicos;
       $menu.insertAdjacentHTML('beforeend', "</ul>");
-      for(i = 0; i < dados.length; i++){
-          var $area = document.querySelector('#'+dados[i].url);
-          $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados[i].titulo+" data-area="+i+"><a href="+dados[i].url+'.html'+">"+dados[i].titulo+"</a></li>");
+      for(i = 0; i < dados2.length; i++){
+          var id = dados2[i].area.replace( /\s/g, '' );
+          var $area = document.querySelector('#'+id);
+          $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados2[i].titulo+" data-area="+i+"><a href="+dados2[i].url+'.html'+">"+dados2[i].titulo+"</a></li>");
       }
     });
 }
@@ -84,6 +91,25 @@ function realizaPesquisa(){
         termoFinal = termoFinal.toLowerCase();
         $conteudo.insertAdjacentHTML('beforeend', '<ul>');
          $.getJSON("assets/data/dados.json", function(data) {
+            var dados2 = data.areas;
+            for(i = 0; i <dados2.length; i++){
+                var controle = 0;
+                if(dados2[i].url != null){
+                    if(removerAcentos(dados2[i].nome).toLowerCase().search(termoFinal) != -1){
+                        controle = 1;
+                    }
+                    if(removerAcentos(dados2[i].dados).toLowerCase().search(termoFinal) != -1){
+                        controle = 1;
+                    }
+                }
+                if(controle == 1){
+                    $conteudo.insertAdjacentHTML('beforeend', '<li><a href='+ dados2[i].url +'.html'+'>'+
+                    '<h3>' + dados2[i].nome + '</h1>'+
+                    '<p>' + dados2[i].descricao + '</p>'+
+                    '</li></a>'
+                    );
+                }
+            }
             var dados = data.topicos;
             for (i = 0; i < dados.length; i++){
                 var chaves = dados[i].palavras_chaves;
