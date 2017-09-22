@@ -50,7 +50,7 @@
         "descricao": "",
         "url" "",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Introdução ao PPC",
         "area_swebok": "",
         "dados":""
     },
@@ -59,7 +59,7 @@
         "descricao": "",
         "url" "",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Introdução ao PPC",
         "area_swebok": "",
         "dados":""
     },
@@ -68,7 +68,7 @@
         "descricao": "",
         "url" "",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Introdução ao PPC",
         "area_swebok": "",
         "dados":""
     },
@@ -77,7 +77,7 @@
         "descricao": "",
         "url" "",
         "palavras_chaves": [],
-        "area": "",
+        "area": "Introdução ao PPC",
         "area_swebok": "",
         "dados":""
     },
@@ -86,13 +86,22 @@
         "descricao": "",
         "url" "",
         "palavras_chaves": [],
+        "area": "Introdução ao PPC",
+        "area_swebok": "",
+        "dados":""
+    },
+    {
+        "titulo": "Objetivos Geral",
+        "descricao": "Objetivos",
+        "url" "",
+        "palavras_chaves": [],
         "area": "",
         "area_swebok": "",
         "dados":""
     },
     {
-        "titulo": "Lista de ",
-        "descricao": "",
+        "titulo": "Objetivos Específicos",
+        "descricao": "Objetivos",
         "url" "",
         "palavras_chaves": [],
         "area": "",
@@ -114,7 +123,8 @@
         "url": null
     },
     {
-        "Exectativa da formação do profissional"
+        "Exectativa da formação do profissional",
+        "url": "expectativa-da-formacao-do-profissional"
     }
     ]
 }
