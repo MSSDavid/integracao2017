@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style-home.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.css">
         <link rel="stylesheet" href="assets/css/style-grafico.css">
     </head>
     <body>
@@ -21,40 +21,13 @@
           <div class="visao-padrao">Visão padrão</div> 
           <div class="visao-swebok">Visão do Swebok</div>
         </div>
-        <div class="grafico">
-            <div class="wrapper">
-              <div class="wheel closed">
-                <form onsubmit="return false;">
-                  <ul>
-                    <li class="area">
-                      <label class="sent-label">Thank You!</label>
-                      <input ReadOnly="True" placeholder="Área ABC" data-area="1" tabindex="1">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área DCE" data-area="2" tabindex="2">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área EFG" data-area="3" tabindex="3">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área KLM" data-area="4" tabindex="4">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área OPQ" data-area="5" tabindex="5">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área RST" data-area="6" tabindex="6">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área UVX" data-area="7" tabindex="7">
-                    </li>
-                    <li class="area">
-                      <input ReadOnly="True" placeholder="Área WYZ" data-area="8" tabindex="8">
-                    </li>
-                  </ul>
-                  <input type="submit">
-                </form>
+        <div class="donut">
+            <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'>
+            <div class="content">
+              <div id="donut-chart">
+                <svg></svg>
               </div>
+            </div>
         </div>
         </div>
         <article class="artigo artigo-swebok" id="artigo-swebok">
@@ -203,6 +176,8 @@
         </article>
         <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
         <script type="text/javascript" src="assets/js/script-grafico.js"></script>
         <script type="text/javascript">

@@ -1,61 +1,94 @@
-function setWheelRotation(rotation) {
-  $('.wheel').css('transform', 'rotate('+rotation+'deg)');
-}
+// Create the donut pie chart and insert it onto the page
+nv.addGraph(function() {
+  var donutChart = nv.models.pieChart()
+  		.x(function(d) {
+        return d.label
+      })
+  		.y(function(d) {
+        return d.value
+      })
+  		.showLabels(true)
+  		.showLegend(false)
+  		.labelThreshold(.05)
+  		.labelType("key")
+  		.color(["#965251", "#00b3ca", "#7dd0b6", "#e38690", "#ead98b", "#ccc", "#012302"])
+  		.tooltipContent(
+        function(key, y, e, graph) { return 'Custom tooltip string' }
+      ) // This is for when I turn on tooltips
+  		.tooltips(false)
+  		.donut(true)
+  		.donutRatio(0.35);
+  
+  	// Insert text into the center of the donut
+  	function centerText() {
+			return function() {
+        var svg = d3.select("svg");
 
-function onSubmit() {
-  $('.wheel').addClass('sent');
-  setWheelRotation(697.5);
-  setTimeout(function() {
-    $('.wheel').removeClass('sent');
-    $('input').val('');
-    firstInputField().focus();
-  }, 5000);
-  return false;
-}
-
-function firstInputField() {
-  return $('.wheel li:first-child > input');
-}
-
-$('form').on('submit', function() {
-  onSubmit();
-});
-
-$('input').on('focus', function() {
-  var index = $(this).parent().index();
-  var ref =  $(this).attr("data-area");
-  var rotation = -22.5 - (45 * index);
-  $('.artigo').slideUp();
-  $('#artigo-'+ ref).slideDown();
-  setWheelRotation(rotation);
-});
-
-var lastTabIndex = $('[tabindex]').length;
-
-$('[tabindex]').on('keydown', function(event) {
-  if (event.keyCode == 9) { // Tab pressed
-    event.preventDefault();
-    var currentElement = $(this).get(0);
-    var curIndex = currentElement.tabIndex;
-    if (event.shiftKey) {
-      if (curIndex == 1) {
-        return;
-      } else {
-        curIndex--;
-      }
-    } else {
-      if (curIndex == lastTabIndex) {
-        return;
-      } else {
-        curIndex++;
+    		var donut = svg.selectAll("g.nv-slice").filter(
+          function (d, i) {
+            return i == 0;
+          }
+        );
+        
+        // Insert first line of text into middle of donut pie chart
+        donut.insert("text", "g")
+            .text("Engenharia")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", "-.55em")
+        		.style("fill", "#000");
+        // Insert second line of text into middle of donut pie chart
+        donut.insert("text", "g")
+            .text("de Software")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", ".85em")
+        		.style("fill", "#000");
       }
     }
+  
+  // Put the donut pie chart together
+  d3.select("#donut-chart svg")
+    .datum(seedData())
+    .transition().duration(500)
+    .call(donutChart)
+    .call(centerText())
+    .call(pieSlice());
     
-    $('[tabindex='+curIndex+']').focus();
-  }
+  return donutChart;
 });
 
-$(document).ready(function() {
-  $('.wheel').removeClass('closed');
-  //firstInputField().focus();
-});
+
+// Seed data to populate donut pie chart
+function seedData() {
+  return [
+    {
+      "label": "Apresentação do Curso",
+      "value": 14.28571
+    },
+    {
+      "label": "Perfil do Bacharel",
+      "value": 14.28571
+    },
+    {
+      "label": "Matérias",
+      "value": 14.28571
+    },
+    {
+      "label": "TCC - Estágio - Pesquisa",
+      "value": 14.28571
+    },
+    {
+      "label": "Requisitos Legais",
+      "value": 14.28571
+    },
+    {
+      "label": "Equivalências",
+      "value": 14.28571
+    },
+    {
+      "label": "Bibliografia",
+      "value": 14.28571
+    }
+  ];
+}

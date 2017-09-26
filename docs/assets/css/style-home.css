@@ -1,6 +1,6 @@
 .titulo{
     height: 40px;
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bold;
     margin-top: 20px;
@@ -37,8 +37,8 @@
 .botao-visao{
     cursor: pointer;
     height: 55px;
-    margin-top: 15px;
-    color: white;
+    margin-top: 25px;
+    color: black;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -50,7 +50,7 @@
 .visao-padrao{
     width: 170px;
     float: left;
-    border: 1px white solid;
+    border: 1px black solid;
     padding: 15px;
     text-align: center;
 }
@@ -58,17 +58,47 @@
 .visao-swebok{
     width: 170px;
     float: left;
-    border: 1px white solid;
+    border: 1px black solid;
     padding: 15px;
     text-align: center;
 }
 
 .visao-padrao:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .visao-swebok:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+}
+
+* {
+  font-family: Lato;
+}
+
+.content h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+svg {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+svg text.middle {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 24px;
+}
+svg .nvd3.nv-pie .nv-pieLabels text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  fill: #fff !important;
+}
+
+.nv-slice{
+    cursor: pointer;
 }
