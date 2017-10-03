@@ -53,6 +53,19 @@ $(".botao-fechar").on("click", function(){
     $(".bg-fundo-preto").hide();
 });
 
+$(document).mouseup(function(e) 
+{
+    var container = $(".msg-flutuante");
+    var container2 = $(".bg-fundo-preto");
+
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.hide();
+        container2.hide();
+    }
+});
+
+
 $(function() {
     /*
     var div = $(".msg-flutuante"); // seleciona a div específica
@@ -66,7 +79,6 @@ $(function() {
         }
     });
     */
-    
     $(document).keyup(function(e) {
      if (e.keyCode == 27) {
         $(".msg-flutuante").hide();
