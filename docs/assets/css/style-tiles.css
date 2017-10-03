@@ -1,0 +1,68 @@
+.tiles-box{
+  margin-top: 50px;
+  display: none
+}
+
+.tiles{
+  color: white;
+  padding: 15px;
+  width: 19.1%;
+  height: 180px;
+  margin: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.tiles:hover{
+  opacity: 1;
+}
+
+@media screen and (max-width: 1200px){
+  .tiles{
+    width: 23.9%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .tiles{
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .tiles{
+    width: 47.5%;
+  }
+  .row{
+    margin: auto
+  }
+}
+
+@media screen and (max-width: 445px){
+  .tiles{
+    width: 98%;
+  }
+  .row{
+    margin: auto;
+  }
+}
+
+.blue{
+  background-color: blue;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.black{
+  background-color: black;
+}

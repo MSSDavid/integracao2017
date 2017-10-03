@@ -17,7 +17,7 @@ nv.addGraph(function() {
       ) // This is for when I turn on tooltips
   		.tooltips(false)
   		.donut(true)
-  		.donutRatio(0.35);
+  		.donutRatio(0.30);
   
   	// Insert text into the center of the donut
   	function centerText() {
@@ -63,23 +63,11 @@ nv.addGraph(function() {
 function seedData() {
   return [
     {
-      "label": "Apresentação do Curso",
-      "value": 14.28571
-    },
-    {
       "label": "Perfil do Bacharel",
       "value": 14.28571
     },
     {
-      "label": "Matérias",
-      "value": 14.28571
-    },
-    {
       "label": "TCC - Estágio - Pesquisa",
-      "value": 14.28571
-    },
-    {
-      "label": "Requisitos Legais",
       "value": 14.28571
     },
     {
@@ -88,6 +76,18 @@ function seedData() {
     },
     {
       "label": "Bibliografia",
+      "value": 14.28571
+    },
+    {
+      "label": "Requisitos Legais",
+      "value": 14.28571
+    },
+    {
+      "label": "Matérias",
+      "value": 14.28571
+    },
+    {
+      "label": "Apresentação do Curso",
       "value": 14.28571
     }
   ];

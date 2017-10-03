@@ -94,11 +94,42 @@ svg text.middle {
 }
 svg .nvd3.nv-pie .nv-pieLabels text {
   font-family: Lato;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   fill: #fff !important;
 }
 
 .nv-slice{
     cursor: pointer;
+}
+
+.bg-fundo-preto{
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 10;
+}
+
+.msg-flutuante{
+    display: none;
+    overflow-y: auto;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.botao-fechar{
+    width: 38px;
 }

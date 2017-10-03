@@ -28,25 +28,52 @@ function inserirTopo(classe){
 
 $(".visao-swebok").on("click", function(){
   areas = ["Area 123", "Area 456", "Area 678", "Area 8910", "Area 111213", "Area 141516", "Area 171819", "Area 202122"];
-  roda = $(".wheel").find("li");
-  for(i = 0; i < roda.length; i++){
-    $(".wheel").find("li").find("input").eq(i).attr("data-area", (i + 11));
-    $(".wheel").find("li").find("input").eq(i).attr("placeholder", areas[i]);
-  }
+  $(".donut").hide('slow');
+  $(".tiles-box").show('slow');
   $(".artigo").slideUp();
-  $("#artigo-swebok").slideDown();
 });
 
 $(".visao-padrao").on("click", function(){
   areas = ["Area ABC", "Area DCE", "Area FGH", "Area IJK", "Area LMN", "Area OPQ", "Area RST", "Area UVX"];
-  roda = $(".wheel").find("li");
-  for(i = 0; i < roda.length; i++){
-    $(".wheel").find("li").find("input").eq(i).attr("data-area", (i + 1));
-    $(".wheel").find("li").find("input").eq(i).attr("placeholder", areas[i]);
-  }
+  $(".tiles-box").hide('slow');
+  $(".donut").show('slow');
   $(".artigo").slideUp();
   $("#artigo-principal").slideDown();
 });
+
+$(".tiles").on("click", function(){
+    var area = $(this).attr('data-area');
+    $(".bg-fundo-preto").show();
+    $("#"+area).show();
+    $("#"+area).find(".artigo").show();
+});
+
+$(".botao-fechar").on("click", function(){
+    $(".msg-flutuante").hide();
+    $(".bg-fundo-preto").hide();
+});
+
+$(function() {
+    /*
+    var div = $(".msg-flutuante"); // seleciona a div específica
+    $("body").on("click", function (e) {
+        if (div.has(e.target).length || e.target == div[0])
+        return;
+        if($(".bg-fundo-preto").css("display") == "block"){
+          $(".msg-flutuante").hide();
+          $(".bg-fundo-preto").hide();
+        }else{
+        }
+    });
+    */
+    
+    $(document).keyup(function(e) {
+     if (e.keyCode == 27) {
+        $(".msg-flutuante").hide();
+        $(".bg-fundo-preto").hide();
+      }
+    });
+})
 
 function redirecionar(){
     if (event.keyCode == 13){
