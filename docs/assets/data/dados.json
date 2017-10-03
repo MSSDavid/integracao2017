@@ -337,36 +337,36 @@
         "titulo": "Computação e Sociedade",
         "descricao": "Computação e Sociedade",
         "url": "computacao-e-sociedade",
-        "palavras_chaves": [],
+        "palavras_chaves": ["Códigos","ética","conduta","profissional"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Prática em Engenharia de Software Profissional",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 0 32 1.o INF Sim Nenhum Ementa 1. História da computação.  2. Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.  3. Subáreas da computação e áreas interdisciplinares.  4. Importância e desafios da computação no Brasil e no mundo.  5. Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão.  6. Leis e normas relacionadas à Informática.  7. Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação.  8. Ética na Computação.  9. Empresas de tecnologia da informação. 10. Incubadoras de empresas."
-    },
+    },/////////////////////////////////////////////////////////////
     {
         "titulo": "Introdução à Programação",
         "descricao": "Introdução à Programação",
         "url": "introducao-a-programacao",
-        "palavras_chaves": [],
+        "palavras_chaves": ["Noções","básicas","linguagem","programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos da Computação",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 48 80 128 1.o INF Sim Nenhum Ementa 1. Introdução a algoritmos. 2. Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição. 3. Ponteiro. 4. Estruturas de dados homogêneas e heterogêneas: vetores, matrizes, cadeias de caracteres, registros. Subprogramas: funções; passagens de parâmetros por valor e por referência, recursividade. 5. Manipulação de arquivos: abertura, fechamento, leitura e gravação.6. Tipos de acesso a arquivos: sequencial e indexado.7. Tipos de arquivos (texto e binário).8. Transcrição de algoritmos para uma linguagem de programação 9. Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas."
     },
     {
         "titulo": "Cálculo 1A",
         "descricao": "Cálculo 1A",
         "url": "calculo-1a",
-        "palavras_chaves": [],
+        "palavras_chaves": ["matemática","calculo"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos Matemáticos",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 96 0 96 1.o IME Sim Nenhum Ementa 1. Números reais. Funções reais de uma variável real e suas inversas. 2. Noções sobre cônicas. 3. Limite e continuidade. 4. Derivadas e aplicações. 5. Polinômio de Taylor. 6. Integrais. Técnicas de Integração. Integrais impróprias. 7. Aplicações."
     },
     {
         "titulo": "Fundamentos de Matemática para Computação",
         "descricao": "Fundamentos de Matemática para Computação",
         "url": "fundamentos-de-matematica-para-computacao",
-        "palavras_chaves": [],
+        "palavras_chaves": ["fundamentos","matemática"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos Matemáticos",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 1.o INF Sim Nenhum Ementa 1. Noções de lógica. 2. Introdução a demonstrações.3. Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória. 4. Séries e sequências. 5. Relações e Funções. 6. Representações numéricas e Mudança de base numérica."
     },
     {
@@ -375,43 +375,43 @@
         "url": "arquitetura-de-computadores",
         "palavras_chaves": [],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos da Computação",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 48 16 64 2.o INF Sim Fundamentos de Matemática para Computação Ementa 1. Visão geral dos computadores modernos.2. Evolução da arquitetura dos computadores.3. Memória e representação de dados e instruções.4. Processador, ciclo de instrução, formato e endereçamento.5. Noções básicas de programação em linguagem de montagem.6. Dispositivos de entrada e saída.7. Sistemas de interconexão (barramentos).8. Interfaceamento e técnicas de entrada e saída. 9. Hierarquia de memória.10. Introdução a arquiteturas paralelas e métricas de desempenho."
     },
     {
         "titulo": "Algoritmos e Estruturas de Dados 1",
         "descricao": "Algoritmos e Estruturas de Dados 1",
         "url": "algoritmos-e-estruturas-de-dados-1",
-        "palavras_chaves": [],
+        "palavras_chaves": ["algoritmos","dados","estruturas"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "fundamentos da computação",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 32 64 2.o INF Sim Introdução à Programação Ementa 1. Noções de complexidade de algoritmos (notações de complexidade). 2. Algoritmos de pesquisa: pesquisa sequencial e binária. 3. Algoritmos de ordenação. 4. Tipos abstratos de dados. 5. Estruturas de dados utilizando vetores: pilhas, filas, listas (simples e circulares).  6. Estruturas de dados com alocação dinâmica de memória: pilhas, filas, listas (simplesmente encadeadas, duplamente encadeadas e circulares)."
     },
     {
         "titulo": "Probabilidade e Estatística A",
         "descricao": "Probabilidade e Estatística A",
         "url": "probabilidade-e-estatistica-a",
-        "palavras_chaves": [],
+        "palavras_chaves": ["Probabilidade","estatistica","matemática"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos Matemáticos",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 2.o IME Sim Cálculo 1A Ementa 1. Estatística descritiva. Noções sobre amostragem. 2. Introdução à teoria de conjuntos. 3. Introdução à teoria de probabilidade: espaço amostral, eventos, frequência relativa, fundamentos de probabilidade, probabilidade condicional, eventos independentes e teorema de Bayes. 4. Variáveis aleatórias: conceitos básicos, esperança e variância. 5. Distribuições discretas de probabilidade: uniforme, binomial e Poisson. 6. Distribuições contínuas de probabilidade: uniforme, exponencial, normal e t-Student. 7. Estimação pontual e intervalar para uma população: média e proporção. 8. Teste de hipóteses para uma população: média e proporção. 9. Correlação linear e regressão linear simples."
     },
     {
         "titulo": "Álgebra Linear",
         "descricao": "Álgebra Linear",
         "url": "algebra-linear",
-        "palavras_chaves": [],
+        "palavras_chaves": ["Estruturas", "algébricas"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos Matemáticos",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 2.o IME Sim Nenhum Ementa 1. Sistemas lineares e matrizes. 2. Espaços vetoriais. 3. Transformações lineares. 4. Autovalores e autovetores. 5. Espaços com produto interno."
     },
     {
         "titulo": "Lógica Matemática",
         "descricao": "Lógica Matemática",
         "url": "logica-matematica",
-        "palavras_chaves": [],
+        "palavras_chaves": ["Lógica","básica"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos Matemáticos",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 2.o IME Sim Fundamentos de Matemática para Computação Ementa 1. Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);2. Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural.3. Linguagem para experimentação.4. Aplicações básicas."
     },
     {
