@@ -341,7 +341,7 @@
         "area": "Disciplinas de formação básica - obrigatórias",
         "area_swebok": "Prática em Engenharia de Software Profissional",
         "dados":"Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 0 32 1.o INF Sim Nenhum Ementa 1. História da computação.  2. Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.  3. Subáreas da computação e áreas interdisciplinares.  4. Importância e desafios da computação no Brasil e no mundo.  5. Cursos de computação e aspectos profissionais: tipos de cursos, perfis profissionais, demanda do mercado, organizações e associações na área, regulamentação da profissão.  6. Leis e normas relacionadas à Informática.  7. Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação.  8. Ética na Computação.  9. Empresas de tecnologia da informação. 10. Incubadoras de empresas."
-    },/////////////////////////////////////////////////////////////
+    },
     {
         "titulo": "Introdução à Programação",
         "descricao": "Introdução à Programação",
@@ -418,36 +418,36 @@
         "titulo": "Programação Orientada a Objetos",
         "descricao": "Programação Orientada a Objetos",
         "url": "programacao-orientada-a-objetos",
-        "palavras_chaves": [],
+        "palavras_chaves": ["paradigmas","programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Construção de Software",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 32 64 3.o INF Sim Introdução à Programação Ementa 1. Abstração e tipos abstratos de dados. 2. Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo. 3. Uso de uma linguagem orientada a objetos. 4. Noções de UML. 5. Noções de padrões de projeto orientado a objetos."
     },
     {
         "titulo": "Algoritmos e Estruturas de Dados 2",
         "descricao": "Algoritmos e Estruturas de Dados 2",
         "url": "algoritmos-e-estruturas-de-dados-2",
-        "palavras_chaves": [],
+        "palavras_chaves": ["paradigmas","computação","algoritmos","estruturas"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "Fundamentos da computação",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito:NC 64 0 64 3.o INF Sim Algoritmos e Estruturas de Dados 1Ementa1. Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras). 2. Filas de prioridades. Heaps, Heapsort.  Hashing: tipos de funções de hashing; tratamento de colisões. 3. Definições de Grafos. 4. Estruturas de Dados para representação de grafos. 5. Algoritmos básicos em grafos."
     },
     {
         "titulo": "Linguagens e Paradigmas de Programação",
         "descricao": "Linguagens e Paradigmas de Programação",
         "url": "linguagens-e-paradigmas-de-programacao",
-        "palavras_chaves": [],
+        "palavras_chaves": ["fundamentos", "programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "fundamentos da computação",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 32 64 3.o INF Sim Introdução à Programação Ementa 1. Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script. 2. Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação. 3. Descrição de sintaxe e semântica. 4. Estudo sobre tipos de dados, estruturas de controle, ambientes de execução, variáveis, expressões e subprogramas em linguagens de programação."
     },
     {
         "titulo": "Engenharia de Software",
         "descricao": "Engenharia de Software",
         "url": "engenharia-de-software",
-        "palavras_chaves": [],
+        "palavras_chaves": ["SWEBOK"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "",
+        "area_swebok": "SWEBOK",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 3.o INF Sim Nenhum Ementa 1. Requisitos de software. 2. Projeto (design) de software. 3. Construção de software. 4. Teste de software. 5. Manutenção de software. 6. Gerência de configuração de software. 7. Gerência de projeto de software. 8. Processo de engenharia de software. 9. Modelos e métodos de engenharia de software. 10. Qualidade de software. 11. Prática profissional de engenharia de software. 12. Economia para engenharia de software.  13. Fundamentos de engenharia."
     },
     {
