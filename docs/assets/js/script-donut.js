@@ -92,3 +92,14 @@ function seedData() {
     }
   ];
 }
+
+$(function(){
+    var slicespie = $("path");
+    for(i = 0; i < slicespie.length; i++){
+     $("svg").find("path").eq(i).attr("id", "slice"+i+"");
+    }
+    $("path").on("click", function (){
+      $(".bg-fundo-preto").show();
+      $("#id-"+$(this).attr("id")).show();
+    });
+});

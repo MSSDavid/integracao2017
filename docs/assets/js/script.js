@@ -26,6 +26,7 @@ function inserirTopo(classe){
     $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
 }
 
+
 $(".visao-swebok").on("click", function(){
   areas = ["Area 123", "Area 456", "Area 678", "Area 8910", "Area 111213", "Area 141516", "Area 171819", "Area 202122"];
   $(".donut").hide('slow');
@@ -64,6 +65,8 @@ $(document).mouseup(function(e)
         container2.hide();
     }
 });
+
+
 
 
 $(function() {
