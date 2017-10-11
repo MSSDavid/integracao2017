@@ -17,12 +17,33 @@ function inserirTopo(classe){
               "<div class='navbar-form navbar-right'>" +
                 "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" +
               "</div>" +
-              "<ul class='nav navbar-nav navbar-right'>" +
-                "<li><a href='index.html'>Página Inicial</a></li>" +
-              "</ul>" +
-            "</div>" +
-          "</div>" +
-        "</nav>";
+              "<ul class='nav navbar-nav navbar-right'>";
+        var query = location.search.slice(1);
+        var partes = query.split('&');
+        var data = {};
+        partes.forEach(function (parte) {
+            var chaveValor = parte.split('=');
+            var chave = chaveValor[0];
+            var valor = chaveValor[1];
+            data[chave] = valor;
+        });
+        if ((data.hasOwnProperty("visao")) && (!!data.visao)){
+            HTMLNovo = HTMLNovo + 
+                "<li><a href='ppc-completo.html'>Visão Padrão</a></li>" +
+                    "<li><a href='index.html'>Página Inicial</a></li>" +
+                  "</ul>" +
+                "</div>" +
+              "</div>" +
+            "</nav>";
+        }else{
+            HTMLNovo = HTMLNovo + 
+                "<li><a href='ppc-completo.html?visao=swebok'>Visão do Swebok ®</a></li>" +
+                    "<li><a href='index.html'>Página Inicial</a></li>" +
+                  "</ul>" +
+                "</div>" +
+              "</div>" +
+            "</nav>";
+        }
     $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
 }
 
@@ -32,34 +53,74 @@ function ajustaMenu() {
 }
 
 function inserirMenu(){
-    $.getJSON("assets/data/dados.json", function(data) {
-      var dados = data.areas;
-      var areas = [];
-      var urls = [];
-      for (i = 0; i < dados.length; i++){
-          if(areas.indexOf(dados[i].nome) == -1){
-              areas.push(dados[i].nome);
-              urls.push(dados[i].url);
-          }
-      }
-      var $menu = document.querySelector('.menu');
-      $menu.insertAdjacentHTML('beforeend', "<ul>");
-      for(i = 0; i < areas.length; i++){
-          var id = areas[i].replace( /\s/g, '' );
-          if(urls[i] != null){
-              $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><a href="+urls[i]+'.html'+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></a></li>");
-          }else{
-              $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
-          }
-      }
-      var dados2 = data.topicos;
-      $menu.insertAdjacentHTML('beforeend', "</ul>");
-      for(i = 0; i < dados2.length; i++){
-          var id = dados2[i].area.replace( /\s/g, '' );
-          var $area = document.querySelector('#'+id);
-          $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados2[i].titulo+" data-area="+i+"><a href="+dados2[i].url+'.html'+">"+dados2[i].titulo+"</a></li>");
-      }
+    var query = location.search.slice(1);
+    var partes = query.split('&');
+    var data = {};
+    partes.forEach(function (parte) {
+        var chaveValor = parte.split('=');
+        var chave = chaveValor[0];
+        var valor = chaveValor[1];
+        data[chave] = valor;
     });
+    if ((data.hasOwnProperty("visao")) && (!!data.visao)){
+        console.log("Visão: Swebok");
+        $.getJSON("assets/data/dados.json", function(data) {
+          var dados = data.topicos;
+          var areas = [];
+          var urls = [];
+          for (i = 0; i < dados.length; i++){
+              if(areas.indexOf(dados[i].area_swebok) == -1){
+                  areas.push(dados[i].area_swebok);
+                  urls.push(dados[i].url);
+              }
+          }
+          var $menu = document.querySelector('.menu');
+          $menu.insertAdjacentHTML('beforeend', "<ul>");
+          for(i = 0; i < areas.length; i++){
+                var id = areas[i].replace( /\s/g, '' );
+                $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
+          }
+          $menu.insertAdjacentHTML('beforeend', "</ul>");
+          for(i = 0; i < dados.length; i++){
+              var id = dados[i].area_swebok.replace( /\s/g, '' );
+              var $area = document.querySelector('#'+id);
+              $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados[i].titulo+" data-area="+i+"><a href="+dados[i].url+'.html?visao=Swebok'+">"+dados[i].titulo+"</a></li>");
+          }
+        });
+    }else{
+        $.getJSON("assets/data/dados.json", function(data) {
+          var dados = data.areas;
+          var areas = [];
+          var urls = [];
+          for (i = 0; i < dados.length; i++){
+              if(areas.indexOf(dados[i].nome) == -1){
+                  areas.push(dados[i].nome);
+                  urls.push(dados[i].url);
+              }
+          }
+          var $menu = document.querySelector('.menu');
+          $menu.insertAdjacentHTML('beforeend', "<ul>");
+          for(i = 0; i < areas.length; i++){
+              var id = areas[i].replace( /\s/g, '' );
+              if(urls[i] != null){
+                  $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><a href="+urls[i]+'.html'+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></a></li>");
+              }else{
+                  $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
+              }
+          }
+          var dados2 = data.topicos;
+          $menu.insertAdjacentHTML('beforeend', "</ul>");
+          for(i = 0; i < dados2.length; i++){
+              var id = dados2[i].area.replace( /\s/g, '' );
+              var $area = document.querySelector('#'+id);
+              $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados2[i].titulo+" data-area="+i+"><a href="+dados2[i].url+'.html'+">"+dados2[i].titulo+"</a></li>");
+          }
+        });
+    }
+}
+
+function inserirMenuSwebok(){
+    
 }
 
 function redirecionar(){
