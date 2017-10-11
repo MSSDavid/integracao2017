@@ -84,7 +84,7 @@ function inserirMenu(){
           for(i = 0; i < dados.length; i++){
               var id = dados[i].area_swebok.replace( /\s/g, '' );
               var $area = document.querySelector('#'+id);
-              $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados[i].titulo+" data-area="+i+"><a href="+dados[i].url+'.html?visao=Swebok'+">"+dados[i].titulo+"</a></li>");
+              $area.insertAdjacentHTML('beforeend', "<li class='topico' data-area="+i+"><a href="+dados[i].url+'.html?visao=Swebok'+">"+dados[i].titulo+"</a></li>");
           }
         });
     }else{

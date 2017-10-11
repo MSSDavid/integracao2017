@@ -528,7 +528,7 @@
         "url": "introducao-a-lingua-brasileira-de-sinais",
         "palavras_chaves": ["Interação","Stakeholders"],
         "area": "Disciplinas optativas",
-        "area_swebok": " Prática em Engenharia de Software Profissional",
+        "area_swebok": "Prática em Engenharia de Software Profissional",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NE 64 0 64 4.o LETRAS Não Nenhum Ementa 1. Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares. 2. Concepções sobre a Língua de Sinais. 3. O surdo e a sociedade."
     },
     {
@@ -609,7 +609,7 @@
         "url": "dominios-de-software",
         "palavras_chaves": ["técnicas", "baseadas","domínio","entrada"],
         "area": "Disciplinas específicas de Engenharia de Software",
-        "area_swebok": "Teste de software",
+        "area_swebok": "Teste de Software",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 16 48 64 6.o INF Sim Nenhum Ementa 1. Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.2. Especificidades de alguns domínios de desenvolvimento (8h).3. Especificidades de um domínio (12h): requisitos, projeto, construção.4. Desenvolvimento de software em um domínio (ênfase na construção) (40h).Condições mínimas (estar apto a):(Faz com orientação). Explicar a construção de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.(Faz com orientação). Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.(Segue instruções). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).(Segue instruções). Detalhar projeto (design) em conformidade com requisitos de software.(Segue instruções). Colaborar com a construção de código em equipe.(Segue instruções). Explicar domínios de desenvolvimento (categorias) e as especificidades correspondentes.(Segue instruções). Explicar um domínio de software e as estratégias de desenvolvimento correspondentes."
     },
     {
@@ -627,7 +627,7 @@
         "url": "gerencia-de-projeto-de-software",
         "palavras_chaves": ["Planejamento","Projeto","Software"],
         "area": "Disciplinas específicas de Engenharia de Software",
-        "area_swebok": " Gerência de Engenharia de Software",
+        "area_swebok": "Gerência de Engenharia de Software",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 32 32 64 6.o INF Sim Nenhum Ementa 1. Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO). 2. Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação. 3. Tipos de ciclo de vida de projeto de software (4h): preditivo, iterativo, adaptativo; processos empíricos e processos definidos e sua relação com métodos ágeis e métodos planejados para gerência de projeto de software. 4. Modelos de qualidade de processo de gerência de projeto de software (4h). 5. Áreas de conhecimento da gerência de projetos aplicadas a projetos de software (48h): escopo, tempo, custo, qualidade, recursos humanos, comunicações, riscos, aquisições, integração e partes interessadas.Condições mínimas (estar apto a)(Segue instruções). Usar normas, modelos e ferramentas de gerência de projeto para planejamento e acompanhamento de projeto de software.Faz com orientação). Selecionar e implementar o tipo de modelo de processo (dirigido por plano, incremental ou adaptativo) de acordo com as características do contexto do projeto de software.(Segue instruções). Selecionar e implementar o tipo de ciclo de vida de software (ou paradigma de engenharia de software - cascata, espiral, iterativo, baseado em modelo de maturidade, etc.) de acordo com as características do contexto do projeto de software."
     },
     {
@@ -726,7 +726,7 @@
         "url": "mercado-e-economia-de-software",
         "palavras_chaves": ["mercado","economia","engenharia","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
-        "area_swebok": " Economia em Engenharia de Software",
+        "area_swebok": "Economia em Engenharia de Software",
         "dados": "Núcleo Carga horária Teórica Prática Período (fluxo) Pré-requisito:NC 64 48 80 8.o NenhumEmenta1. Modelos de negócio para software (aluguel, serviço, código aberto). 2. Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software. 3. Programas de incentivo à exportação e à produção de software.4. Características e exigências do mercado interno e externo. 5. Identificação de oportunidades de inovação em software. 6. Planos de negócio de software para o mercado nacional e global.7. Engenharia Econômica. Fornecimento, demanda e produção. Lucro produzido por capital (interest). Análise custo-benefício. Análise breakeven. Retorno de investimento. Avaliação de alternativas. Economia aplicada ao desenvolvimento de software.Condições mínimas (estar apto a)(Segue instruções). Explicar a relação entre decisões técnicas e o alinhamento com objetivos de negócio no qual software está inserido(Segue instruções). Explicar as principais leis e normas pertinentes à indústria de software no Brasil.(Segue instruções). Elaborar plano de negócio para software inovador."
     },
     {
