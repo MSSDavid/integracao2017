@@ -445,9 +445,9 @@
         "titulo": "Engenharia de Software",
         "descricao": "Engenharia de Software",
         "url": "engenharia-de-software",
-        "palavras_chaves": ["SWEBOK"],
+        "palavras_chaves": ["SWEBOK", "Gerência de Engenharia de Software", "Processo de Engenharia de Software"],
         "area": "Disciplinas de formação básica - obrigatórias",
-        "area_swebok": "SWEBOK",
+        "area_swebok": "Processo de Engenharia de Software",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 64 0 64 3.o INF Sim Nenhum Ementa 1. Requisitos de software. 2. Projeto (design) de software. 3. Construção de software. 4. Teste de software. 5. Manutenção de software. 6. Gerência de configuração de software. 7. Gerência de projeto de software. 8. Processo de engenharia de software. 9. Modelos e métodos de engenharia de software. 10. Qualidade de software. 11. Prática profissional de engenharia de software. 12. Economia para engenharia de software.  13. Fundamentos de engenharia."
     },
     {
@@ -618,7 +618,7 @@
         "url": "processos-de-qualidade-de-software",
         "palavras_chaves": ["Gerência","Qualidade"],
         "area": "Disciplinas específicas de Engenharia de Software",
-        "area_swebok": "Gerência de Engenharia de Software",
+        "area_swebok": "Qualidade de Software",
         "dados": "Núcleo TEO PRA TOTAL Período Unidade Obrigatória Pré-requisito: NC 48 16 64 6.o INF Sim Nenhum Ementa 1. Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.2. Processo de garantia da qualidade de software (10h): garantia do produto e garantia do processo.3. Processo de Verificação e Validação de Software (36h): requisito, projeto (design), código, integração, documentação. 4. Processos de Revisão e Auditoria de Software (14h): revisões gerenciais e revisões técnicas.Condições mínimas (estar apto a)(Faz sem orientação). Explicar processos de qualidade de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.(Faz com orientação). Explicar a diferença e a relação entre a garantia do produto e a garantia do processo.(Segue instruções). Usar um processo da garantia da qualidade de software(Segue instruções). Usar um processo para a verificação e validação de software.(Segue instruções). Usar um processo para a revisão e auditoria de software. (Faz sem orientação). Colaborar em uma equipe na execução de um processo de qualidade.(Segue instruções). Documentar resultados dos processos de qualidade de software.(Segue instruções). Identificar e utilizar ferramentas de apoio ao controle de qualidade de artefatos de software."
     },
     {

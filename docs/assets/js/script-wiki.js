@@ -66,14 +66,7 @@ function inserirMenu(){
         console.log("Visão: Swebok");
         $.getJSON("assets/data/dados.json", function(data) {
           var dados = data.topicos;
-          var areas = [];
-          var urls = [];
-          for (i = 0; i < dados.length; i++){
-              if(areas.indexOf(dados[i].area_swebok) == -1){
-                  areas.push(dados[i].area_swebok);
-                  urls.push(dados[i].url);
-              }
-          }
+          var areas = ["Requisitos de Software", "Design de Software", "Construção de Software", "Teste de Software", "Gerência de Engenharia de Software", "Processo de Engenharia de Software", "Qualidade de Software", "Prática em Engenharia de Software Profissional", "Economia em Engenharia de Software", "Fundamentos da Computação", "Fundamentos Matemáticos", "Fundamentos da Engenharia", "Específico do PPC"];
           var $menu = document.querySelector('.menu');
           $menu.insertAdjacentHTML('beforeend', "<ul>");
           for(i = 0; i < areas.length; i++){
