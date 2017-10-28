@@ -28,14 +28,12 @@ function inserirTopo(classe){
 
 
 $(".visao-swebok").on("click", function(){
-  areas = ["Area 123", "Area 456", "Area 678", "Area 8910", "Area 111213", "Area 141516", "Area 171819", "Area 202122"];
   $(".donut").hide('slow');
   $(".tiles-box").show('slow');
   $(".artigo").slideUp();
 });
 
 $(".visao-padrao").on("click", function(){
-  areas = ["Area ABC", "Area DCE", "Area FGH", "Area IJK", "Area LMN", "Area OPQ", "Area RST", "Area UVX"];
   $(".tiles-box").hide('slow');
   $(".donut").show('slow');
   $(".artigo").slideUp();
