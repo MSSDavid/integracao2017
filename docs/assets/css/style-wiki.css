@@ -2,6 +2,10 @@
     height: 50px;
 }
 
+.navbar{
+    z-index: 10000;
+}
+
 .botao-visao{
     cursor: pointer;
     height: 55px;
@@ -44,6 +48,7 @@
 
 .menu{
     background-color: #CCC;
+    padding-bottom: 15px;
 }
 
 .menu li{
@@ -69,6 +74,31 @@
     color: black;
 }
 
+.conteudo{
+    padding-right: 30px;
+}
+
 .conteudo ul,li{
     list-style: none;
+}
+
+.conteudo li h5{
+    display: inline;
+}
+
+.conteudo li a{
+    display: block;
+    width: fit-content;
+}
+
+.conteudo p{
+    text-align: justify;
+}
+
+.resultado-pesquisa{
+    border-bottom: 1px solid;
+}
+
+.resultado-pesquisa p{
+    color: black;
 }

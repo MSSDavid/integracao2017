@@ -99,6 +99,7 @@ $(function(){
      $("svg").find("path").eq(i).attr("id", "slice"+i+"");
     }
     $("path").on("click", function (){
+      $(".artigo").show();
       $(".bg-fundo-preto").show();
       $("#id-"+$(this).attr("id")).show();
     });
