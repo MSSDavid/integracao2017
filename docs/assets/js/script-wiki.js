@@ -15,7 +15,7 @@ function inserirTopo(classe){
             "<!-- Collect the nav links, forms, and other content for toggling -->" + 
             "<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>" + 
               "<div class='navbar-form navbar-right'>" + 
-                "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" + 
+                "<input type='text' class='form-control' onkeydown='redirecionar(event)' id='busca' placeholder='Pesquisar...'>" + 
               "</div>" + 
               "<ul class='nav navbar-nav navbar-right'>" + 
               "<li><a target='_blank' href='http://inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf'>Documento PPC</a></li>";
@@ -54,6 +54,8 @@ function ajustaMenu() {
 }
 
 function inserirMenu(){
+    var $menu = document.querySelector('.row');
+    $menu.insertAdjacentHTML('afterbegin', "<button onclick='mostraMenu()' style='border: 0;padding: 0;width: 100%'><li id='menu-responsive'>MENU <img id='icon-down-menu' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaBAMAAABbZFH9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAnUExURf///////////////////////0dwTP///////////////////0dwTKQGtAMAAAANdFJOU24M4/4fxwCIwi1fUQBYMQZQAAAAjklEQVQYGZ3OsQkCQRCF4QFhOzgw18TsuBfYgRZgA67IIBqamdqDFiBYp+/NLLihOMFxP9/t7Jn3Y334/7XdtEWX4nZcLFu91m4HTIlnoNgJSJwBb6u7xD0w8vYBWPEkiVtc+PAg/dlceBWp6h3TU6eihBySTJgUFSjKIupUK2Lpqt4i8st85VM7v/N7fQD3PXedpR3ftwAAAABJRU5ErkJggg=='></li></button>");
     var query = location.search.slice(1);
     var partes = query.split('&');
     var data = {};
@@ -69,7 +71,6 @@ function inserirMenu(){
           var dados = data.topicos;
           var areas = ["Requisitos de Software", "Design de Software", "Construção de Software", "Teste de Software", "Gerência de Engenharia de Software", "Processo de Engenharia de Software", "Qualidade de Software", "Prática em Engenharia de Software Profissional", "Economia em Engenharia de Software", "Fundamentos da Computação", "Fundamentos Matemáticos", "Fundamentos da Engenharia", "Específico do PPC"];
           var $menu = document.querySelector('.menu');
-          $menu.insertAdjacentHTML('beforeend', "<ul>");
           for(i = 0; i < areas.length; i++){
                 var id = areas[i].replace( /\s/g, '' );
                 $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
@@ -97,7 +98,7 @@ function inserirMenu(){
           for(i = 0; i < areas.length; i++){
               var id = areas[i].replace( /\s/g, '' );
               if(urls[i] != null){
-                  $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><a href="+urls[i]+'.html'+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></a></li>");
+                  $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><a class='link-titulo-area-principal' href="+urls[i]+'.html'+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></a></li>");
               }else{
                   $menu.insertAdjacentHTML('beforeend', "<li class='principal-area' id="+id+" data-area="+i+"><h2 class='titulo-area-principal'>"+areas[i]+"</h2></li>");
               }
@@ -107,7 +108,7 @@ function inserirMenu(){
           for(i = 0; i < dados2.length; i++){
               var id = dados2[i].area.replace( /\s/g, '' );
               var $area = document.querySelector('#'+id);
-              $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+dados2[i].titulo+" data-area="+i+"><a href="+dados2[i].url+'.html'+">"+dados2[i].titulo+"</a></li>");
+              $area.insertAdjacentHTML('beforeend', "<li class='topico' id="+id+" data-area="+i+"><a href="+dados2[i].url+'.html'+">"+dados2[i].titulo+"</a></li>");
           }
         });
     }
@@ -117,8 +118,14 @@ function inserirMenuSwebok(){
     
 }
 
-function redirecionar(){
-    if (event.keyCode == 13){
+function mostraMenu(){
+    $(".menu").slideToggle();
+}
+
+
+function redirecionar(event){
+    var e = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode;
+    if (e == 13){
         var busca = encodeURI(removerAcentos($("#busca").val()));
         window.location.href = "pesquisar.html?termo="+busca;
     }
