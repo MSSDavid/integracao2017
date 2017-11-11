@@ -23,8 +23,25 @@ nv.addGraph(function() {
   	function centerText() {
 			return function() {
         var svg = d3.select("svg");
-
+        var svg2 = d3.select("#svg2");
+        var svg3 = d3.select("#svg3");
+        var svg4 = d3.select("#svg4");
     		var donut = svg.selectAll("g.nv-slice").filter(
+          function (d, i) {
+            return i == 0;
+          }
+        );
+        var donut2 = svg2.selectAll("g.nv-slice").filter(
+          function (d, i) {
+            return i == 0;
+          }
+        );
+        var donut3 = svg3.selectAll("g.nv-slice").filter(
+          function (d, i) {
+            return i == 0;
+          }
+        );
+        var donut4 = svg4.selectAll("g.nv-slice").filter(
           function (d, i) {
             return i == 0;
           }
@@ -44,6 +61,51 @@ nv.addGraph(function() {
             .attr("text-anchor", "middle")
         		.attr("dy", ".85em")
         		.style("fill", "#000");
+        		
+        // Insert first line of text into middle of donut pie chart 2
+        donut2.insert("text", "g")
+            .text("Engenharia")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", "-.55em")
+        		.style("fill", "#000");
+        // Insert second line of text into middle of donut pie chart 2
+        donut2.insert("text", "g")
+            .text("de Software")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", ".85em")
+        		.style("fill", "#000");
+        		
+        // Insert first line of text into middle of donut pie chart 3
+        donut3.insert("text", "g")
+            .text("Engenharia")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", "-.55em")
+        		.style("fill", "#000");
+        // Insert second line of text into middle of donut pie chart 3
+        donut3.insert("text", "g")
+            .text("de Software")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", ".85em")
+        		.style("fill", "#000");
+        		
+        // Insert first line of text into middle of donut pie chart 4
+        donut4.insert("text", "g")
+            .text("Engenharia")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", "-.55em")
+        		.style("fill", "#000");
+        // Insert second line of text into middle of donut pie chart 4
+        donut4.insert("text", "g")
+            .text("de Software")
+            .attr("class", "middle")
+            .attr("text-anchor", "middle")
+        		.attr("dy", ".85em")
+        		.style("fill", "#000");
       }
     }
   
@@ -52,8 +114,26 @@ nv.addGraph(function() {
     .datum(seedData())
     .transition().duration(500)
     .call(donutChart)
-    .call(centerText())
-    .call(pieSlice());
+    .call(centerText());
+    
+  d3.select("#donut-chart2 svg")
+    .datum(seedData())
+    .transition().duration(400)
+    .call(donutChart)
+    .call(centerText());
+    
+
+  d3.select("#donut-chart3 svg")
+    .datum(seedData())
+    .transition().duration(300)
+    .call(donutChart)
+    .call(centerText());
+    
+  d3.select("#donut-chart4 svg")
+    .datum(seedData())
+    .transition().duration(350)
+    .call(donutChart)
+    .call(centerText());
     
   return donutChart;
 });
@@ -96,7 +176,10 @@ function seedData() {
 $(function(){
     var slicespie = $("path");
     for(i = 0; i < slicespie.length; i++){
-     $("svg").find("path").eq(i).attr("id", "slice"+i+"");
+       $("#svg").find("path").eq(i).attr("id", "slice"+i+"");
+       $("#svg2").find("path").eq(i).attr("id", "slice"+i+"");
+       $("#svg3").find("path").eq(i).attr("id", "slice"+i+"");
+       $("#svg4").find("path").eq(i).attr("id", "slice"+i+"");
     }
     $("path").on("click", function (){
       $(".artigo").show();

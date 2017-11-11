@@ -99,6 +99,55 @@ svg .nvd3.nv-pie .nv-pieLabels text {
   fill: #fff !important;
 }
 
+#svg2 {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+#svg2 text.middle {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 24px;
+}
+#svg2 .nvd3.nv-pie .nv-pieLabels text {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  fill: #fff !important;
+}
+
+#svg3 {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+#svg3 text.middle {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 17px;
+}
+#svg3 .nvd3.nv-pie .nv-pieLabels text {
+  font-family: Lato;
+  font-size: 8px;
+  fill: #fff !important;
+}
+
+#svg4 {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+}
+#svg4 text.middle {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 14px;
+}
+#svg4 .nvd3.nv-pie .nv-pieLabels text {
+  font-family: Lato;
+  font-size: 6px;
+  fill: #fff !important;
+}
+
 .nv-slice{
     cursor: pointer;
 }
@@ -132,4 +181,59 @@ svg .nvd3.nv-pie .nv-pieLabels text {
 
 .botao-fechar{
     width: 38px;
+}
+
+#donut-chart2{
+    display: none;
+}
+
+#donut-chart3{
+    display: none;
+}
+
+#donut-chart4{
+    display: none;
+}
+
+
+@media screen and (max-width: 810px) {
+    #donut-chart{
+        display: none;
+    }
+    
+    #donut-chart2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #donut-chart{
+        display: none;
+    }
+    
+    #donut-chart2{
+        display: none;
+    }
+    
+    #donut-chart3{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #donut-chart{
+        display: none;
+    }
+    
+    #donut-chart2{
+        display: none;
+    }
+    
+    #donut-chart3{
+        display: none;
+    }
+    
+    #donut-chart4{
+        display: block;
+    }
 }
