@@ -281,3 +281,9 @@ svg .nvd3.nv-pie .nv-pieLabels text {
         padding-right: 5px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .titulo{
+        height: 60px;
+    }
+}
