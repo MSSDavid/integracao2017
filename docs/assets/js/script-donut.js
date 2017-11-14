@@ -1,4 +1,7 @@
-// Create the donut pie chart and insert it onto the page
+//Função obtida através do CodePen(https://codepen.io)
+//Autor: Meredith (https://codepen.io/MeredithU)
+//Link: https://codepen.io/MeredithU/pen/LVVoNE
+//A função abaixo cria o Donut (roda interativa) na tela
 nv.addGraph(function() {
   var donutChart = nv.models.pieChart()
   		.x(function(d) {
@@ -19,7 +22,7 @@ nv.addGraph(function() {
   		.donut(true)
   		.donutRatio(0.30);
   
-  	// Insert text into the center of the donut
+  	// Insere o texto no meio do donut
   	function centerText() {
 			return function() {
         var svg = d3.select("svg");
@@ -47,14 +50,14 @@ nv.addGraph(function() {
           }
         );
         
-        // Insert first line of text into middle of donut pie chart
+        // Insere a primeira linha do donut maior
         donut.insert("text", "g")
             .text("Engenharia")
             .attr("class", "middle")
             .attr("text-anchor", "middle")
         		.attr("dy", "-.55em")
         		.style("fill", "#000");
-        // Insert second line of text into middle of donut pie chart
+        // Insere a segunda linha do donut maior
         donut.insert("text", "g")
             .text("de Software")
             .attr("class", "middle")
@@ -62,14 +65,14 @@ nv.addGraph(function() {
         		.attr("dy", ".85em")
         		.style("fill", "#000");
         		
-        // Insert first line of text into middle of donut pie chart 2
+        // Insere a primeira linha do segundo donut maior
         donut2.insert("text", "g")
             .text("Engenharia")
             .attr("class", "middle")
             .attr("text-anchor", "middle")
         		.attr("dy", "-.55em")
         		.style("fill", "#000");
-        // Insert second line of text into middle of donut pie chart 2
+        // Insere a segunda linha do segundo donut maior
         donut2.insert("text", "g")
             .text("de Software")
             .attr("class", "middle")
@@ -77,14 +80,14 @@ nv.addGraph(function() {
         		.attr("dy", ".85em")
         		.style("fill", "#000");
         		
-        // Insert first line of text into middle of donut pie chart 3
+        // Insere a primeira linha do terceiro donut maior
         donut3.insert("text", "g")
             .text("Engenharia")
             .attr("class", "middle")
             .attr("text-anchor", "middle")
         		.attr("dy", "-.55em")
         		.style("fill", "#000");
-        // Insert second line of text into middle of donut pie chart 3
+        // Insere a segunda linha do terceiro donut maior
         donut3.insert("text", "g")
             .text("de Software")
             .attr("class", "middle")
@@ -92,14 +95,14 @@ nv.addGraph(function() {
         		.attr("dy", ".85em")
         		.style("fill", "#000");
         		
-        // Insert first line of text into middle of donut pie chart 4
+        // Insere a primeira linha do quarto donut maior
         donut4.insert("text", "g")
             .text("Engenharia")
             .attr("class", "middle")
             .attr("text-anchor", "middle")
         		.attr("dy", "-.55em")
         		.style("fill", "#000");
-        // Insert second line of text into middle of donut pie chart 4
+        // Insere a segunda linha do quarto donut maior
         donut4.insert("text", "g")
             .text("de Software")
             .attr("class", "middle")
@@ -109,37 +112,39 @@ nv.addGraph(function() {
       }
     }
   
-  // Put the donut pie chart together
+  // Insere o donut maior na tela
   d3.select("#donut-chart svg")
     .datum(seedData())
     .transition().duration(500)
     .call(donutChart)
     .call(centerText());
-    
+  
+  // Insere o segundo donut maior na tela
   d3.select("#donut-chart2 svg")
     .datum(seedData())
     .transition().duration(400)
     .call(donutChart)
     .call(centerText());
     
-
+  // Insere o terceiro donut maior na tela
   d3.select("#donut-chart3 svg")
     .datum(seedData())
     .transition().duration(300)
     .call(donutChart)
     .call(centerText());
-    
+  
+  // Insere o quarto donut maior na tela
   d3.select("#donut-chart4 svg")
     .datum(seedData())
     .transition().duration(350)
     .call(donutChart)
     .call(centerText());
-    
+  
   return donutChart;
 });
 
 
-// Seed data to populate donut pie chart
+// Dados que irão povoar o donut
 function seedData() {
   return [
     {
@@ -173,7 +178,9 @@ function seedData() {
   ];
 }
 
+//A função abaixo insere ID's nos elementos do Donut e mostra o artigo do elemento quando clicado
 $(function(){
+    //Insere os IDs nos donuts
     var slicespie = $("path");
     for(i = 0; i < slicespie.length; i++){
        $("#svg").find("path").eq(i).attr("id", "slice"+i+"");
@@ -181,6 +188,7 @@ $(function(){
        $("#svg3").find("path").eq(i).attr("id", "slice"+i+"");
        $("#svg4").find("path").eq(i).attr("id", "slice"+i+"");
     }
+    //Abre o artigo quando um elemnto do donut é apertado
     $("path").on("click", function (){
       $(".artigo").show();
       $(".bg-fundo-preto").show();

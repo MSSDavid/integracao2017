@@ -6,44 +6,12 @@
     z-index: 10000;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #343434!important;
+}
+
 .botao-visao{
-    cursor: pointer;
-    height: 55px;
-    margin-top: 15px;
-    color: white;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
     display: none;
-}
-
-.visao-padrao{
-    width: 170px;
-    float: left;
-    border: 1px white solid;
-    padding: 15px;
-    text-align: center;
-}
-
-.visao-swebok{
-    width: 170px;
-    float: left;
-    border: 1px white solid;
-    padding: 15px;
-    text-align: center;
-}
-
-.visao-padrao:hover{
-    background-color: white;
-    color: black;
-}
-
-.visao-swebok:hover{
-    background-color: white;
-    color: black;
 }
 
 .row {clear:both}
