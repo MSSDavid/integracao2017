@@ -6,7 +6,7 @@
 ## Plano de Desenvolvimento
 O Plano de Desenvolvimento do Portal estão definidos [nesta wiki](https://github.com/MSSDavid/integracao2017/wiki/Plano-de-Desenvolvimento-do-Portal)
 
-## Resumo das áreas de conhecimento do SWEBOK
+## Resumo das áreas de conhecimento do SWEBOK®
 
 A engenharia de software tem 15 áreas de conhecimentos que estão resumidas [nesta wiki](https://github.com/MSSDavid/integracao2017/wiki/Resumo-das-%C3%81reas-de-Conhecimento-do-SWEBOK).
 ## Dúvidas
