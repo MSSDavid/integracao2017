@@ -73,6 +73,11 @@
     color: white;
 }
 
+.botao-visao-apertado{
+    background-color: black;
+    color: white;
+}
+
 * {
   font-family: Lato;
 }
@@ -183,6 +188,15 @@ svg .nvd3.nv-pie .nv-pieLabels text {
     width: 38px;
 }
 
+.botao-fechar svg{
+    width: 38px;
+    height: 38px
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #343434!important;
+}
+
 #donut-chart2{
     display: none;
 }
@@ -203,6 +217,10 @@ svg .nvd3.nv-pie .nv-pieLabels text {
     
     #donut-chart2{
         display: block;
+    }
+    .msg-flutuante {
+        width: 95%;
+        padding: 15px;
     }
 }
 
@@ -235,5 +253,30 @@ svg .nvd3.nv-pie .nv-pieLabels text {
     
     #donut-chart4{
         display: block;
+    }
+    
+    .botao-fechar{
+        width: 30px;
+    }
+    
+    .botao-fechar svg{
+        width: 30px;
+        height: 30px
+    }
+    
+    .botao-visao {
+        height: 45px;
+    }
+    
+    .visao-padrao{
+        padding: 10px;
+        width: 130px;
+    }
+    
+    .visao-swebok{
+        padding: 10px;
+        width: 140px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }

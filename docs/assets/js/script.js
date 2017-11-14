@@ -14,8 +14,9 @@ function inserirTopo(classe){
             "</div>" + 
             "<!-- Collect the nav links, forms, and other content for toggling -->" + 
             "<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>" + 
-              "<div class='navbar-form navbar-right'>" + 
-                "<input type='text' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" + 
+              "<div class='navbar-form navbar-right'>" +
+              "<label for='busca' style='display: none;'>Pesquisa</label>" +
+                "<input type='text' name='busca' class='form-control' onkeydown='redirecionar()' id='busca' placeholder='Pesquisar...'>" + 
               "</div>" + 
               "<ul class='nav navbar-nav navbar-right'>" + 
                 "<li><a href='ppc-completo.html'>PPC Completo</a></li>" + 
@@ -31,6 +32,8 @@ $(".visao-swebok").on("click", function(){
   $(".donut").hide('slow');
   $(".tiles-box").show('slow');
   $(".artigo").slideUp();
+  $(".visao-swebok").addClass("botao-visao-apertado");
+  $(".visao-padrao").removeClass("botao-visao-apertado");
 });
 
 $(".visao-padrao").on("click", function(){
@@ -38,6 +41,8 @@ $(".visao-padrao").on("click", function(){
   $(".donut").show('slow');
   $(".artigo").slideUp();
   $("#artigo-principal").slideDown();
+  $(".visao-swebok").removeClass("botao-visao-apertado");
+  $(".visao-padrao").addClass("botao-visao-apertado");
 });
 
 $(".tiles").on("click", function(){

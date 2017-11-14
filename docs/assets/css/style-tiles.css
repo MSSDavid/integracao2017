@@ -33,17 +33,11 @@
   .tiles{
     width: 47.5%;
   }
-  .row{
-    margin: auto
-  }
 }
 
 @media screen and (max-width: 445px){
   .tiles{
     width: 98%;
-  }
-  .row{
-    margin: auto;
   }
 }
 
