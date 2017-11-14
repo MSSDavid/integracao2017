@@ -1,3 +1,4 @@
+//Insere a tag NAV no html, na classe selecionada
 function inserirTopo(classe){
     var $wrapper = document.querySelector('.'+classe),
     HTMLNovo = "<nav class='navbar navbar-default'>" + 
@@ -27,24 +28,35 @@ function inserirTopo(classe){
     $wrapper.insertAdjacentHTML('beforeend', HTMLNovo);
 }
 
-
+//Muda da visão Padrão para Visão do Swebok
 $(".visao-swebok").on("click", function(){
+  //Esconde o donut
   $(".donut").hide('slow');
+  //Mostra as tiles
   $(".tiles-box").show('slow');
+  //Some o artigo inicial
   $(".artigo").slideUp();
+  //Muda a cor dos botões
   $(".visao-swebok").addClass("botao-visao-apertado");
   $(".visao-padrao").removeClass("botao-visao-apertado");
 });
 
+//Muda da visão do Swebok para Visão Padrão
 $(".visao-padrao").on("click", function(){
+  //Esconde as tiles
   $(".tiles-box").hide('slow');
+  //Mostra o donut
   $(".donut").show('slow');
+  //Mostra o artigo inicial
   $(".artigo").slideUp();
   $("#artigo-principal").slideDown();
+  //Muda a cor dos botões
   $(".visao-swebok").removeClass("botao-visao-apertado");
   $(".visao-padrao").addClass("botao-visao-apertado");
 });
 
+
+//Mostra o artigo referente a Tile clicada (visão Swebok)
 $(".tiles").on("click", function(){
     var area = $(this).attr('data-area');
     $(".bg-fundo-preto").show();
@@ -52,11 +64,13 @@ $(".tiles").on("click", function(){
     $("#"+area).find(".artigo").show();
 });
 
+//Fecha um artigo aberto pelo botão X
 $(".botao-fechar").on("click", function(){
     $(".msg-flutuante").hide();
     $(".bg-fundo-preto").hide();
 });
 
+//Fecha um artigo aberto clicando fora dele (na parte escura)
 $(document).mouseup(function(e) 
 {
     var container = $(".msg-flutuante");
@@ -69,22 +83,8 @@ $(document).mouseup(function(e)
     }
 });
 
-
-
-
+//Fecha um artigo aberto clicando no botão "Esc" do teclado
 $(function() {
-    /*
-    var div = $(".msg-flutuante"); // seleciona a div específica
-    $("body").on("click", function (e) {
-        if (div.has(e.target).length || e.target == div[0])
-        return;
-        if($(".bg-fundo-preto").css("display") == "block"){
-          $(".msg-flutuante").hide();
-          $(".bg-fundo-preto").hide();
-        }else{
-        }
-    });
-    */
     $(document).keyup(function(e) {
      if (e.keyCode == 27) {
         $(".msg-flutuante").hide();
@@ -93,6 +93,7 @@ $(function() {
     });
 })
 
+//Redireciona para a página de pesquisa quando apertado enter dentro do input de pesquisa (#busca)
 function redirecionar(){
     if (event.keyCode == 13){
         var busca = encodeURI(removerAcentos($("#busca").val()));
@@ -100,6 +101,7 @@ function redirecionar(){
     }
 }
 
+//Essa função remove acentos de uma string
 function removerAcentos( newStringComAcento ) {
   var string = newStringComAcento;
 	var mapaAcentosHex 	= {
@@ -118,11 +120,9 @@ function removerAcentos( newStringComAcento ) {
         n : /\xF1/g,
         N : /\xD1/g,
 	};
-
 	for ( var letra in mapaAcentosHex ) {
 		var expressaoRegular = mapaAcentosHex[letra];
 		string = string.replace( expressaoRegular, letra );
 	}
-
 	return string;
 }

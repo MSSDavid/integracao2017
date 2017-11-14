@@ -2,7 +2,6 @@
 "topicos": [
     {
         "titulo": "Lista de Siglas",
-        "descricao": "Lista de Siglas",
         "url": "lista-de-siglas",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
@@ -11,7 +10,6 @@
     },
     {
         "titulo": "Agradecimentos",
-        "descricao": "Agradecimentos",
         "url": "agradecimentos",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
@@ -20,7 +18,6 @@
     },
     {
         "titulo": "Apresentaçao",
-        "descricao": "Apresentação",
         "url": "apresentacao",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
@@ -29,7 +26,6 @@
     },
     {
         "titulo": "Identificação",
-        "descricao": "Identificação",
         "url": "identificacao",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
@@ -38,7 +34,6 @@
     },
     {
         "titulo": "Exposição de Motivos",
-        "descricao": "Exposição de Motivos",
         "url": "exposicao-de-motivos",
         "palavras_chaves": [],
         "area": "Introdução ao PPC",
@@ -47,7 +42,6 @@
     },
     {
         "titulo": "Da aptidão do Instituto de Informática",
-        "descricao": "Da aptidão do Instituto de Informática",
         "url": "da-aptidao-do-instituto-de-informatica",
         "palavras_chaves": [],
         "area": "Contexto",
@@ -56,7 +50,6 @@
     },
     {
         "titulo": "Da carência de mão de obra",
-        "descricao": "Da carência de mão de obra",
         "url": "da-carencia-de-mao-de-obra",
         "palavras_chaves": [],
         "area": "Contexto",
@@ -65,7 +58,6 @@
     },
     {
         "titulo": "Dos indicadores socioeconômicos regionais",
-        "descricao": "Dos indicadores socioeconômicos regionais",
         "url": "dos-indicadores-socioeconomicos-regionais",
         "palavras_chaves": [],
         "area": "Contexto",
@@ -74,7 +66,6 @@
     },
     {
         "titulo": "Objetivo Geral",
-        "descricao": "Objetivo Geral",
         "url": "objetivo-geral",
         "palavras_chaves": [],
         "area": "Objetivos",
@@ -83,7 +74,6 @@
     },
     {
         "titulo": "Objetivos Específicos",
-        "descricao": "Objetivos Específicos",
         "url": "objetivos-especificos",
         "palavras_chaves": [],
         "area": "Objetivos",
@@ -92,7 +82,6 @@
     },
     {
         "titulo": "Perfil do egresso",
-        "descricao": "Perfil do egresso",
         "url": "perfil-do-egresso",
         "palavras_chaves": [],
         "area": "Expectativa da formação do profissional",
@@ -101,7 +90,6 @@
     },
     {
         "titulo": "Habilidades do egresso",
-        "descricao": "Habilidades do egresso",
         "url": "habilidades-do-egresso",
         "palavras_chaves": [],
         "area": "Expectativa da formação do profissional",
@@ -110,7 +98,6 @@
     },
     {
         "titulo": "Formação Ética e Função Social do Profissional",
-        "descricao": "Formação Ética e Função Social do Profissional",
         "url": "formacao-etica-e-funcao-social-do-profissional",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -119,7 +106,6 @@
     },
     {
         "titulo": "Formação Técnica",
-        "descricao": "Formação Técnica",
         "url": "formacao-tecnica",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -128,7 +114,6 @@
     },
     {
         "titulo": "Estratégia da definição das disciplinas",
-        "descricao": "Estratégia da definição das disciplinas",
         "url": "estrategia-da-definicao-das-disciplinas",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -137,7 +122,6 @@
     },
     {
         "titulo": "Articulação entre Teoria e Prática Profissional",
-        "descricao": "Articulação entre Teoria e Prática Profissional",
         "url": "articulacao-entre-teoria-e-pratica-profissional",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -146,7 +130,6 @@
     },
     {
         "titulo": "Interdisciplinaridade",
-        "descricao": "Interdisciplinaridade",
         "url": "interdisciplinaridade",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -155,7 +138,6 @@
     },
     {
         "titulo": "Disciplina “Prática em Engenharia de Software”",
-        "descricao": "Disciplina “Prática em Engenharia de Software”",
         "url": "disciplina-pratica-em-engenharia-de-software",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -164,7 +146,6 @@
     },
     {
         "titulo": "Atividades supervisionadas",
-        "descricao": "Atividades supervisionadas",
         "url": "atividades-supervisionadas",
         "palavras_chaves": [],
         "area": "Princípios Norteadores",
@@ -173,7 +154,6 @@
     },
     {
         "titulo": "Avaliação do processo de ensino e aprendizagem",
-        "descricao": "Avaliação do processo de ensino e aprendizagem",
         "url": "avaliacao-do-processo-de-ensino-e-aprendizagem",
         "palavras_chaves": [],
         "area": "Avaliações e Políticas",
@@ -182,7 +162,6 @@
     },
     {
         "titulo": "Avaliação do projeto de curso",
-        "descricao": "Avaliação do projeto de curso",
         "url": "avalicao-do-projeto-de-curso",
         "palavras_chaves": [],
         "area": "Avaliações e Políticas",
@@ -191,7 +170,6 @@
     },
     {
         "titulo": "Política de qualificação",
-        "descricao": "Política de qualificação",
         "url": "politica-de-qualificacao",
         "palavras_chaves": [],
         "area": "Avaliações e Políticas",
@@ -200,7 +178,6 @@
     },
     {
         "titulo": "Libras",
-        "descricao": "Libras",
         "url": "libras",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -209,7 +186,6 @@
     },
     {
         "titulo": "Política de educação ambiental",
-        "descricao": "Política de educação ambiental",
         "url": "politica-de-educacao-ambiental",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -218,7 +194,6 @@
     },
     {
         "titulo": "Planejamento das disciplinas",
-        "descricao": "Planejamento das disciplinas",
         "url": "planejamento-das-disciplinas",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -227,7 +202,6 @@
     },
     {
         "titulo": "Programa institucional",
-        "descricao": "Programa institucional",
         "url": "programa-institucional",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -236,7 +210,6 @@
     },
     {
         "titulo": "Resolução Nº 1 de 17 de junho de 2004",
-        "descricao": "Resolução Nº 1 de 17 de junho de 2004",
         "url": "resolucao-n-1-de-17-de-junho-de-2004",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -245,7 +218,6 @@
     },
     {
         "titulo": "Disciplinas de graduação obrigatórias",
-        "descricao": "Disciplinas de graduação obrigatórias",
         "url": "disciplinas-de-graduacao-obrigatorias",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -254,7 +226,6 @@
     },
     {
         "titulo": "Programa institucional de Extensão",
-        "descricao": "Programa institucional de Extensão",
         "url": "programa-institucional-de-extensao",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -263,7 +234,6 @@
     },
     {
         "titulo": "Diretrizes nacionais para Educação em Direitos Humanos",
-        "descricao": "Diretrizes nacionais para Educação em Direitos Humanos",
         "url": "diretrizes-nacionais-para-educacao-em-direitos-humanos",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -272,7 +242,6 @@
     },
     {
         "titulo": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
-        "descricao": "Proteção dos direitos da pessoa com Transtornos do Espectro Autista",
         "url": "protecao-dos-direitos-da-pessoa-com-transtornos-do-espectro-autista",
         "palavras_chaves": [],
         "area": "Requisitos legais e normativos",
@@ -281,7 +250,6 @@
     },
     {
         "titulo": "Matriz curricular",
-        "descricao": "Matriz curricular",
         "url": "matriz-curricular",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -290,7 +258,6 @@
     },
     {
         "titulo": "Núcleo livre",
-        "descricao": "Núcleo livre",
         "url": "nucleo-livre",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -299,7 +266,6 @@
     },
     {
         "titulo": "Atividades complementares",
-        "descricao": "Atividades complementares",
         "url": "atividades-complementares",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -308,7 +274,6 @@
     },
     {
         "titulo": "Distribuição da carga horária",
-        "descricao": "Distribuição da carga horária",
         "url": "distribuicao-da-carga-horaria",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -317,7 +282,6 @@
     },
     {
         "titulo": "Fluxo sugerido",
-        "descricao": "Fluxo sugerido",
         "url": "fluxo-sugerido",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -326,7 +290,6 @@
     },
     {
         "titulo": "Pré-requisitos",
-        "descricao": "Pré-requisitos",
         "url": "pre-requisitos",
         "palavras_chaves": [],
         "area": "Estrutura Curricular",
@@ -335,7 +298,6 @@
     },
     {
         "titulo": "Computação e Sociedade",
-        "descricao": "Computação e Sociedade",
         "url": "computacao-e-sociedade",
         "palavras_chaves": ["Códigos","ética","conduta","profissional"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -344,7 +306,6 @@
     },
     {
         "titulo": "Introdução à Programação",
-        "descricao": "Introdução à Programação",
         "url": "introducao-a-programacao",
         "palavras_chaves": ["Noções","básicas","linguagem","programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -353,7 +314,6 @@
     },
     {
         "titulo": "Cálculo 1A",
-        "descricao": "Cálculo 1A",
         "url": "calculo-1a",
         "palavras_chaves": ["matemática","calculo"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -362,7 +322,6 @@
     },
     {
         "titulo": "Fundamentos de Matemática para Computação",
-        "descricao": "Fundamentos de Matemática para Computação",
         "url": "fundamentos-de-matematica-para-computacao",
         "palavras_chaves": ["fundamentos","matemática"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -371,7 +330,6 @@
     },
     {
         "titulo": "Arquitetura de Computadores",
-        "descricao": "Arquitetura de Computadores",
         "url": "arquitetura-de-computadores",
         "palavras_chaves": [],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -380,7 +338,6 @@
     },
     {
         "titulo": "Algoritmos e Estruturas de Dados 1",
-        "descricao": "Algoritmos e Estruturas de Dados 1",
         "url": "algoritmos-e-estruturas-de-dados-1",
         "palavras_chaves": ["algoritmos","dados","estruturas"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -389,7 +346,6 @@
     },
     {
         "titulo": "Probabilidade e Estatística A",
-        "descricao": "Probabilidade e Estatística A",
         "url": "probabilidade-e-estatistica-a",
         "palavras_chaves": ["Probabilidade","estatistica","matemática"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -398,7 +354,6 @@
     },
     {
         "titulo": "Álgebra Linear",
-        "descricao": "Álgebra Linear",
         "url": "algebra-linear",
         "palavras_chaves": ["Estruturas", "algébricas"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -407,7 +362,6 @@
     },
     {
         "titulo": "Lógica Matemática",
-        "descricao": "Lógica Matemática",
         "url": "logica-matematica",
         "palavras_chaves": ["Lógica","básica"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -416,7 +370,6 @@
     },
     {
         "titulo": "Programação Orientada a Objetos",
-        "descricao": "Programação Orientada a Objetos",
         "url": "programacao-orientada-a-objetos",
         "palavras_chaves": ["paradigmas","programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -425,7 +378,6 @@
     },
     {
         "titulo": "Algoritmos e Estruturas de Dados 2",
-        "descricao": "Algoritmos e Estruturas de Dados 2",
         "url": "algoritmos-e-estruturas-de-dados-2",
         "palavras_chaves": ["paradigmas","computação","algoritmos","estruturas"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -434,7 +386,6 @@
     },
     {
         "titulo": "Linguagens e Paradigmas de Programação",
-        "descricao": "Linguagens e Paradigmas de Programação",
         "url": "linguagens-e-paradigmas-de-programacao",
         "palavras_chaves": ["fundamentos", "programação"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -443,7 +394,6 @@
     },
     {
         "titulo": "Engenharia de Software",
-        "descricao": "Engenharia de Software",
         "url": "engenharia-de-software",
         "palavras_chaves": ["SWEBOK", "Gerência de Engenharia de Software", "Processo de Engenharia de Software"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -452,7 +402,6 @@
     },
     {
         "titulo": "Análise e Projeto de Algoritmos",
-        "descricao": "Análise e Projeto de Algoritmos",
         "url": "analise-e-projeto-de-algoritmos",
         "palavras_chaves": [],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -461,7 +410,6 @@
     },
     {
         "titulo": "Interação Humano-Computador",
-        "descricao": "Interação Humano-Computador",
         "url": "interacao-humano-computador",
         "palavras_chaves": ["Projeto","interface","usuário"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -470,7 +418,6 @@
     },
     {
         "titulo": "Banco de Dados",
-        "descricao": "Banco de Dados",
         "url": "banco-de-dados",
         "palavras_chaves": ["percistencia","dados","banco"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -479,7 +426,6 @@
     },
     {
         "titulo": "Projeto de Software",
-        "descricao": "Projeto de Software",
         "url": "projeto-de-software",
         "palavras_chaves": ["planejamento", "projeto","software"],
         "area": "Disciplinas de formação básica - obrigatórias",
@@ -488,7 +434,6 @@
     },
     {
         "titulo": "Sistemas Operacionais",
-        "descricao": "Sistemas Operacionais",
         "url": "sistemas-operacionais",
         "palavras_chaves": ["sistemas", "operacionais"],
         "area": "Disciplinas optativas",
@@ -497,7 +442,6 @@
     },
     {
         "titulo": "Pesquisa Operacional",
-        "descricao": "Pesquisa Operacional",
         "url": "pesquisa-operacional",
         "palavras_chaves": ["Projetos","estratégia","pesquisas","soluções"],
         "area": "Disciplinas optativas",
@@ -506,7 +450,6 @@
     },
     {
         "titulo": "Linguagens Formais e Autômatos",
-        "descricao": "Linguagens Formais e Autômatos",
         "url": "linguagens-formais-e-automatos",
         "palavras_chaves": ["Programação","Declarativa","Imprativa" ,"línguas"],
         "area": "Disciplinas optativas",
@@ -515,7 +458,6 @@
     },
     {
         "titulo": "Redes de computadores",
-        "descricao": "Redes de computadores",
         "url": "redes-de-computadores",
         "palavras_chaves": ["Sistemas", "digitais"],
         "area": "Disciplinas optativas",
@@ -524,7 +466,6 @@
     },
     {
         "titulo": "Introdução à Língua Brasileira de Sinais",
-        "descricao": "Introdução à Língua Brasileira de Sinais",
         "url": "introducao-a-lingua-brasileira-de-sinais",
         "palavras_chaves": ["Interação","Stakeholders"],
         "area": "Disciplinas optativas",
@@ -533,7 +474,6 @@
     },
     {
         "titulo": "Compiladores",
-        "descricao": "Compiladores",
         "url": "compiladores",
         "palavras_chaves": [],
         "area": "Disciplinas optativas",
@@ -542,7 +482,6 @@
     },
     {
         "titulo": "Sistemas Distribuídos",
-        "descricao": "Sistemas Distribuídos",
         "url": "sistemas-distribuidos",
         "palavras_chaves": ["Princípios", "básicos","compiladores"],
         "area": "Disciplinas optativas",
@@ -551,7 +490,6 @@
     },
     {
         "titulo": "Condições mínimas",
-        "descricao": "Condições mínimas",
         "url": "condicoes-minimas",
         "palavras_chaves": ["basico","fundamentos"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -560,7 +498,6 @@
     },
     {
         "titulo": "Construção de Software",
-        "descricao": "Construção de Softwares",
         "url": "construcao-de-software",
         "palavras_chaves": ["Fundamentos","Construção","Software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -569,7 +506,6 @@
     },
     {
         "titulo": "Modelagem de Software",
-        "descricao": "Modelagem de Software",
         "url": "modelagem-de-software",
         "palavras_chaves": ["design", "software","construção"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -578,7 +514,6 @@
     },
     {
         "titulo": "Processos de Software",
-        "descricao": "Processos de Software",
         "url": "processos-de-software",
         "palavras_chaves": ["Ciclo","vida","software","melhoria"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -587,7 +522,6 @@
     },
     {
         "titulo": "Engenharia de Sistemas",
-        "descricao": "Engenharia de Sistemas",
         "url": "engenharia-de-sistemas",
         "palavras_chaves": ["Engenharia","Sistemas"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -596,7 +530,6 @@
     },
     {
         "titulo": "Design de Software",
-        "descricao": "Design de Software",
         "url": "design-de-software",
         "palavras_chaves": ["construção","modelagem"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -605,7 +538,6 @@
     },
     {
         "titulo": "Domínios de Software",
-        "descricao": "Domínios de Software",
         "url": "dominios-de-software",
         "palavras_chaves": ["técnicas", "baseadas","domínio","entrada"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -614,7 +546,6 @@
     },
     {
         "titulo": "Processos de Qualidade de Software",
-        "descricao": "Processos de Qualidade de Software",
         "url": "processos-de-qualidade-de-software",
         "palavras_chaves": ["Gerência","Qualidade"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -623,7 +554,6 @@
     },
     {
         "titulo": "Gerência de Projeto de Software",
-        "descricao": "Gerência de Projeto de Software",
         "url": "gerencia-de-projeto-de-software",
         "palavras_chaves": ["Planejamento","Projeto","Software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -632,7 +562,6 @@
     },
     {
         "titulo": "Software Concorrente e Distribuído",
-        "descricao": "Software Concorrente e Distribuído",
         "url": "software-concorrente-e-distribuido",
         "palavras_chaves": ["concorrencia"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -641,7 +570,6 @@
     },
     {
         "titulo": "Experiência do Usuário de Software",
-        "descricao": "Experiência do Usuário de Software",
         "url": "experiencia-do-usuario-de-software",
         "palavras_chaves": ["experiencia","usuario","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -650,7 +578,6 @@
     },
     {
         "titulo": "Arquitetura de Software",
-        "descricao": "Arquitetura de Software",
         "url": "arquitetura-de-software",
         "palavras_chaves": ["Estrutura","arquitetura","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -659,7 +586,6 @@
     },
     {
         "titulo": "Requisitos de Software",
-        "descricao": "Requisitos de Software",
         "url": "requisitos-de-software",
         "palavras_chaves": ["Requisitos", "sistema","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -668,7 +594,6 @@
     },
     {
         "titulo": "Governança e Gestão de Serviços de Software",
-        "descricao": "Governança e Gestão de Serviços de Software",
         "url": "governanca-e-gestao-de-servicos-de-software",
         "palavras_chaves": ["economia","gestão","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -677,7 +602,6 @@
     },
     {
         "titulo": "Software para Sistemas Ubíquos",
-        "descricao": "Software para Sistemas Ubíquos",
         "url": "software-para-sistemas-ubiquos",
         "palavras_chaves": [],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -686,7 +610,6 @@
     },
     {
         "titulo": "Software para Persistência de Dados",
-        "descricao": "Software para Persistência de Dados",
         "url": "software-para-persistencia-de-dados",
         "palavras_chaves": ["banco","dados"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -695,7 +618,6 @@
     },
     {
         "titulo": "Padrões de Arquitetura de Software",
-        "descricao": "Padrões de Arquitetura de Software",
         "url": "padroes-de-arquitetura-de-software",
         "palavras_chaves": ["arquitetura","construção"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -704,7 +626,6 @@
     },
     {
         "titulo": "Teste de Software",
-        "descricao": "Teste de Software",
         "url": "teste-de-software",
         "palavras_chaves": ["verificação","validação"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -713,7 +634,6 @@
     },
     {
         "titulo": "Metodologia e Experimentação em Engenharia de Software",
-        "descricao": "Metodologia e Experimentação em Engenharia de Software",
         "url": "metodologia-e-experimentacao-em-engenharia-de-software",
         "palavras_chaves": ["experimentos","metodologias","engenharia","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -722,7 +642,6 @@
     },
     {
         "titulo": "Mercado e Economia de Software",
-        "descricao": "Mercado e Economia de Software",
         "url": "mercado-e-economia-de-software",
         "palavras_chaves": ["mercado","economia","engenharia","software"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -731,7 +650,6 @@
     },
     {
         "titulo": "Prática em Engenharia de Software",
-        "descricao": "Prática em Engenharia de Software",
         "url": "pratica-em-engenharia-de-software",
         "palavras_chaves": ["construção","pratica"],
         "area": "Disciplinas específicas de Engenharia de Software",
@@ -747,7 +665,6 @@
     {
         "nome": "Contexto",
         "url": "contexto",
-        "descricao": "Contexto",
         "dados": "O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a importância local do curso, detalhados nas seções seguintes."
     },
     {
@@ -765,25 +682,21 @@
     {
         "nome": "Núcleo Docente Estruturante (NDE)",
         "url": "nucleo-docente-estruturante",
-        "descricao": "Núcleo Docente Estruturante (NDE)",
         "dados": "Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios: O NDE possui duas prioridades. A maior prioridade é colocar em prática o Projeto Pedagógico do Curso (PPC). A prioridade seguinte é mantê-lo relevante.Qualquer questão que diz respeito às prioridades é do interesse do NDE e pode resultar em ação. Toda ação necessariamente deve gerar valor e estar alinhada com as prioridades. Uma ação constante e preconcebida é zelar pelos princípios aqui descritos. O NDE entende que o diálogo é necessário e que a diversidade é natural, assim como o confronto de ideias. Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui: Acompanhar a execução das ações de ensino, pesquisa e extensão pertinentes ao curso; Acompanhar a avaliação das ações do curso; Emitir opinião sobre ações pertinentes ao curso; Monitorar o desempenho dos estudantes; Promover ações que possam reduzir reprovações; Monitorar resultados dos trabalhos de conclusão de curso; Monitorar ações de estágios dos estudantes do curso; Acompanhar e se pronunciar acerca de reclamações pertinentes ao curso; Avaliar de forma contínua o PPC do curso; Acompanhar e promover a qualificação de docentes; Acompanhar e promover a qualificação do corpo de técnico-administrativos. O NDE, portanto, não se apresenta como órgão ou mecanismo deliberativo, mas consultivo. Reúne docentes que continuamente refletem sobre questões pertinentes ao curso e, em consequência, definem ações que assistem, apoiam e fomentam a qualidade do curso, bem como contribuem com a execução dessas ações. A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso). Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010."
     },
     {
         "nome": "Política e gestão de estágio não obrigatório",
         "url": "politica-e-gestao-de-estagio-nao-obrigatorio",
-        "descricao": "Política e gestão de estágio não obrigatório",
         "dados": "O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso. O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso. Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso). Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais. Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software."
     },
     {
         "nome": "Trabalho de Conclusão de Curso (TCC)",
         "url": "trabalho-de-conclusao-de-curso",
-        "descricao": "Trabalho de Conclusão de Curso (TCC)",
         "dados": "O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software. O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação. O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software (p. 75). A apresentação do relatório, também individual, é realizada como última atividade do curso e tem como objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e é responsável pela avaliação tanto do relatório quanto da apresentação."
     },
     {
         "nome": "Integração ensino, pesquisa e extensão",
         "url": "integracao-ensino-pesquisa-e-extensao",
-        "descricao": "Integração ensino, pesquisa e extensão",
         "dados": "A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo. As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras. O estágio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa. A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal. Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção o ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino). A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso."
     },
     {
@@ -793,7 +706,6 @@
     {
         "nome": "Requisitos legais e normativos",
         "url": "requisitos-legais-e-normativos",
-        "descricao": "Requisitos legais e normativos",
         "dados": "O curso de Bacharelado em Engenharia de Software contempla requisitos legais específicos, a saber, Libras, Política de Educação Ambiental, e Educação das Relações Étnico-raciais e para o Ensino da História e Cultura Afro-brasileira e Indígena, conforme detalhado nas seções seguintes. A atenção a tais requisitos se verifica por meio de disciplinas e de um Programa de Extensão, devidamente institucionalizado na unidade executora do curso. Está além do escopo do presente documento detalhar o Programa de Extensão. Abaixo, apenas aspectos relevantes para o PPC são destacados."
     },
     {
@@ -811,19 +723,16 @@
     {
         "nome": "Disciplinas Específicas de Engenharia de Software",
         "url": "disciplinas-especificas-de-engenharia-de-software",
-        "descricao": "disciplinas-especificas-de-engenharia-de-software",
         "dados": "Em geral, disciplinas são apresentadas em um padrão composto por ementa, bibliografia básica e bibliografia complementar. As disciplinas de Engenharia de Software, descritas nessa seção, acrescentam uma dimensão denominada “condições mínimas”, elucidada a seguir."
     },
     {
         "nome": "Referências",
         "url": "referencias",
-        "descricao": "Referências",
         "dados": "AAEN, I.; BØTTCHER, P.; MATHIASSEN, L. &quot;The Software Factory: Contributions and Illusions&quot;, Proceedings of the Twentieth Information Systems Research Seminar. Scandinavia, Oslo, 1997. ACM/IEEE. Código de Ética e Prática Profissional da Engenharia de Software. Disponível em http://www.acm.org/about/se-code. Consultado em 20/07/2016. APOEMA. Apoema: Tecnologia da Inovação. Órgão complementar de pesquisa e desenvolvimento do Instituto de Informática. Disponível em http://apoema.inf.ufg.br. [BES1] Bacharelado em Engenharia de Software na Universidade Federal de Goiás, Fórum de Educação em Engenharia de Software (Simpósio Brasileiro de Engenharia de Software), número 43/08, páginas 16-21, Campinas/SP, 17/10/2008, ISSN 0103-9741. [BES2] Engenharia de Software: Graduação (bacharelado) em Engenharia de Software, Engenharia de Software Magazine, Ano I, 10a. edição, páginas 56-60, fevereiro de 2009, ISSN 1983127-7. CEPEC. RESOLUÇÃO CEPEC 1122/2012, 9 de novembro de 2012. Universidade Federal de Goiás (UFG), 2012. CEPEC. RESOLUÇÃO CEPEC 1286/2014, 6 de junho de 2014. Universidade Federal de Goiás (UFG), 2014. CNE. Conselho Nacional de Educação/Câmara de Educação Superior. Parecer CNE/CES 136/2012, 2012. COMTEC. Comunidade Tecnológica de Goiás (COMTEC). Disponível em: http://www.comtecgo.com.br/. CONSUNI. RESOLUÇÃO CONSUNI 10/2008, 27/06/2008. Universidade Federal de Goiás (UFG), 2008. CONSUNI. RESOLUÇÃO CONSUNI 02/2014, 24 de janeiro de 2014. Universidade Federal de Goiás (UFG), 2014. CUSUMANO, M. A. &quot;Factory Concepts and Practices in Software Development&quot;. Annals of the History of Computing, 13(1): 3–32, 1991. IBGE. Portal http://www.ibge.gov.br/ consultado em 18/05/2014. [MEC 2012] Diretrizes Curriculares Nacionais para os cursos de graduação em Computação. Parecer CNE/CES 136/2012. Disponível em http://goo.gl/ks2R2O. OECD. Education at a Glance 2012: OECD indicators, OECD Publishing, 2012, ISBN 978-92- 64-17929- 5. PLS. Plano de Logística Sustentável da Universidade Federal de Goiás. Disponível em https://sustentabilidade.prodirh.ufg.br/. [SE 2014] Software Engineering 2014: Curriculum Guidelines for Undergraduate Degree Programs in Software Engineering. Disponível em http://www.acm.org/education/se2014.pdf. [SWEBOK 2014 ] B. Pierre e Fairley, R. E.. Guide to the Software Engineering Body of Knowledge, V3.0, IEEE Computer Society, 2014. Disponível em http://swebok.org. [SWECOM 2014] Software Engineering Competency Model (SWECOM), IEEE Computer Society, 2014. ISBN 978-0- 7695-5373- 3. Disponível em https://www.computer.org/web/peb/swecom. Apêndice A É prevista a migração de estudantes veteranos para o presente currículo (PPC). Nesses casos, a equivalência de disciplinas é realizada conforme as tabelas de equivalência seguintes. Houve esforço no sentido de maximizar os aproveitamentos e, dessa forma, reduzir esforço necessário para integralização dos estudantes sem, contudo, prejudicar a formação desejada. A primeira tabela define como disciplinas do PPC de 2009-1 podem ser aproveitadas no PPC proposto no presente documento (2017-1). Ou seja, apresenta como disciplinas já  cursadas por veteranos poderão ser aproveitadas quando houver migração para o novo currículo. A segunda tabela mostra como disciplinas do PPC de 2017-1 podem ser aproveitadas em termos de disciplinas do PPC de 2009-1."
     },
     {
         "nome": "Aproveitamentos",
         "url": "aproveitamentos",
-        "descricao": "Integração ensino, pesquisa e extensão",
         "dados": "DISCIPLINA DO PPC DE 2009-1 CH NATUREZA APROVEITA COMO – NO PPC DE 2017-1 CH NATUREZA Introdução à Engenharia de Software 64 NE – OBR Engenharia de Software 64 NE – OBR Ética, Normas e Postura Profissional 64 NC – OBR Computação e Sociedade 32 NC – OBR Matemática Discreta 64 NC – OBR Fundamentos de Matemática para Computação 64 NC – OBR Lógica 64 NC – OBR Lógica Matemática 64 NC – OBR Introdução à Programação 64 NC – OBR Introdução à Programação 128 NC – OBR Método de Desenvolvimento de Software 64 NC – OBR Programação Orientada a Objetos 64 NC – OBR Construção de Software 64 NC – OBR Domínios de Software 64 NC – OBR Arquitetura de Computadores 64 NC – OBR Arquitetura de Computadores 64 NC – OBR Algoritmos: Fundamentos e Estruturas de Dados 64 NC – OBR Algoritmos e Estruturas de Dados 1 64 NC – OBR Banco de Dados 64 NC – OBR Banco de Dados 64 NE – OBR Engenharia de Software 64 NE – OBR Engenharia de Software 64 NE – OBR Sistema Operacional 64 NE – OBR Sistemas Operacionais 64 NC – OBR Redes e Sistemas Distribuídos 64 NE – OBR Redes de Computadores 64 NC – OBR Algoritmos: Ordenação e Busca 64 NC – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Linguagens de Programação 64 NE – OBR Linguagens e Paradigmas de Programação 64 NE – OPT Requisitos de Software 64 NE – OBR Requisitos de Software 64 NC – OBR Projeto Detalhado de Software 64 NE – OBR Projeto de Software 64 NE – OPT Processo de Software 64 NE – OBR Processos de Software 64 NE – OBR Algoritmos em Grafos 64 NC – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Interação Homem-Computador 64 NE – OBR Interação Humano-Computador 64 NC – OBR Segurança 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NE – OBR Qualidade de Software 64 NE – OBR Processos de Qualidade de Software 64 NE – OPT Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Verificação e Validação 64 NE – OBR Testes de Software 64 NC – OBR Gerência de Configuração de Software 64 NC – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Manutenção de Software 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NE – OPT Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NC – OBR Métodos e Ferramentas da Engenharia de Software 64 NC – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Experimentação em Engenharia de Software 64 NC – OBR Metodologia e Experimentação em Engenharia de Software 64 NE – OBR Leitura de Software 64 NE – OBR Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR Software Concorrente 64 NC – OBR Software Concorrente e Distribuído 64 NC – OBR Engenharia Econômica para Software 64 NC – OBR Mercado e Economia de Software 64 NE – OBR Software para Web 64 NE – OBR Experiência do Usuário em Software 64 NE – OBR Software para Dispositivos Móveis 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OBR Software para Persistência 64 NC – OBR Software para Persistência de Dados 64 NE – OBR Integração de Aplicações E Técnicas Avançadas de Construção de Software 64 NE – OBR Design de Software 128 NE – OBR 64 NE – OBR Tópicos em Engenharia de Software 64 NE – OPT Optativa 1, Optativa 2 ou Optativa 3 64 NC – OBR LIBRAS 64 NE – OPT Introdução à Língua Brasileira de Sinais 64 NE – OPT Mercado de Software 64 NE – OPT Mercado e Economia de Software 64 NE – OPT Prática em Engenharia de Software 64 NE – OBR Modelagem de Software 64 NE – OBR Integração 1 Integração 2 64 NE – OBR Padrões de Arquitetura de Software 64 NE – OBR 64 NE – OBR DISCIPLINA DO PPC DE 2017-1 CH NATUREZA APROVEITA COMO – NO PPC DE 2009-1 CH NATUREZA Computação e Sociedade 32 NC – OBR Ética, Normas e Postura Profissional 64 NC - OBR Introdução à Programação 128 NC – OBR Introdução à Programação 64 NC - OBR Cálculo 1A 64 NC – OBR Optativa 64 NC – OBR Fundamentos de Matemática para Computação 64 NC – OBR Matemática Discreta 64 NC – OBR Arquitetura de Computadores 64 NE – OPT Arquitetura de Computadores 64 NC – OBR Algoritmos e Estruturas de Dados 1 64 NE – OPT Algoritmos: Fundamentos e Estruturas de Dados 64 NC – OBR Probabilidade e Estatística A 64 NE – OBR Optativa 64 NC – OBR Álgebra Linear 64 NC – OBR Optativa 64 NC – OBR Lógica Matemática 64 NC – OBR Lógica 64 NE – OBR Programação Orientada a Objetos 64 NE – OBR Método de Desenvolvimento de Software 64 NE – OBR Algoritmos e Estruturas de Dados 2 64 NC – OBR Algoritmos: Ordenação e Busca 64 NC – OBR Optativa 1 64 NE – OPT Optativa 64 NC – OBR Linguagens e Paradigmas de Programação 64 NC – OBR Linguagens de Programação 64 NE – OBR Engenharia de Software 64 NE – OBR Engenharia de Software 64 NC – OBR Análise e Projeto de Algoritmos 64 NE – OBR Algoritmos em Grafos 64 NC - OBR Interação Humano-Computador 64 NE – OBR Interação Homem-Computador 64 NE - OBR Optativa 2 64 NE – OBR Optativa 64 NC - OBR Banco de Dados 64 NE – OBR Banco de Dados 64 NC - OBR Projeto de Software 64 NC – OBR Projeto Detalhado de Software 64 NC - OBR  Modelagem de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Software 64 NC – OBR Processo de Software 64 NC – OBR Engenharia de Sistemas 64 NE – OBR Optativa 64 NE – OBr Design de Software 128 NE – OBR Projeto Detalhado de Software E Arquitetura de Software 64 NC – OBR Domínios de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Qualidade de Software 64 NE – OBR Qualidade de Software 64 NC – OBR Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NE – OBR Software Concorrente e Distribuído 64 NE – OBR Software Concorrente 64 NC – OBR Experiência do Usuário de Software 64 NE – OBR Interação Homem-Computador 64 NC – OBR Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Requisitos de Software 64 NC – OBR Requisitos de Software 64 NE – OBR Governança e Gestão de Serviços de Software 64 NE – OBR Gerência de Configuração de Software 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OPT Software para Dispositivos Móveis 64 NE – OPT Software para Persistência de Dados 64 NE – OBR Software para Persistência 64 NE - OBR Padrões de Arquitetura de Software 64 NE – OBR Arquitetura de Software OU Projeto Detalhado de Software 64 NE – OBR Testes de Software 64 NE – OPT Verificação e Validação 64 NC – OBR Optativa 3 64 NE – OPT Optativa 64 NC – OBR Prática em Engenharia de Software 320 NE – OBR - 64 NC – OBR Sistemas Operacionais 64 NE – OPT Sistema Operacional 64 NC - OBR Pesquisa Operacional 64 NE – OPT Optativa 64 NE – OBR Linguagens Formais e Autômatos 64 NE – OBR Optativa 64 NC – OBR Redes de Computadores 64 NE – OBR Redes e Sistemas Distribuídos 64 NC – OBR Introdução à Língua Brasileira de Sinais 64 NE – OBR LIBRAS 64 NC – OBR Compiladores 64 NC – OBR Optativa 64 NC – OBR Sistemas Distribuídos 64 NE – OPT Redes e Sistemas Distribuídos 64 NC – OBR Mercado e Economia de Software 64 NC – OBR Mercado de Software 64 NC - OBR Metodologia e Experimentação em Engenharia de Software 64 NC – OBR Experimentação em Engenharia de Software 64 NC - OBR Design de Software 128 NE – OBR Projeto Detalhado de Software E Arquitetura de Software 64 NC – OBR Domínios de Software 64 NE – OPT Optativa 64 NE – OBR Processos de Qualidade de Software 64 NE – OBR Qualidade de Software 64 NC – OBR Gerência de Projeto de Software 64 NE – OBR Gerência de Projeto de Software 64 NE – OBR Software Concorrente e Distribuído 64 NE – OBR Software Concorrente 64 NC – OBR Experiência do Usuário de Software 64 NE – OBR Interação Homem-Computador 64 NC – OBR Arquitetura de Software 64 NE – OBR Arquitetura de Software 64 NC – OBR Requisitos de Software 64 NC – OBR Requisitos de Software 64 NE – OBR Governança e Gestão de Serviços de Software 64 NE – OBR Gerência de Configuração de Software 64 NE – OBR Software para Sistemas Ubíquos 64 NE – OPT Software para Dispositivos Móveis 64 NE – OBR Software para Persistência de Dados 64 NE – OBR Software para Persistência 64 NE – OBR Padrões de Arquitetura de Software 64 NE – OBR Arquitetura de Software OU Projeto Detalhado de Software 64 NE – OBR Testes de Software 64 NE – OPT Verificação e Validação 64 NE – OBR Optativa 3 64 NE – OPT Optativa 64 NE – OBR Prática em Engenharia de Software 320 NE – OBR - 64 NE – OBRSistemas Operacionais 64 NE – OPT Sistema Operacional 64 NC – OBR Pesquisa Operacional 64 NE – OPT Optativa 64 NE – OBR Linguagens Formais e Autômatos 64 NE – OBR Optativa 64 NC – OBR Redes de Computadores 64 NE – OBR Redes e Sistemas Distribuídos 64 NC – OBR Introdução à Língua Brasileira de Sinais 64 NE – OBR LIBRAS 64 NC – OBR Compiladores 64 NE – OPT Optativa 64 NC – OBR Sistemas Distribuídos 64 NE – OPT Redes e Sistemas Distribuídos 64 NC – OBR Mercado e Economia de Software 64 NC – OBR Mercado de Software 64 NC - OBR Metodologia e Experimentação em Engenharia de Software 64 NC – OBR Experimentação em Engenharia de Software 64 NC - OBR"
     }
     ]

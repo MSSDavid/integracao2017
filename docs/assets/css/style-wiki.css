@@ -10,6 +10,10 @@
     color: #343434!important;
 }
 
+.botao-visao{
+    display: none;
+}
+
 .row {clear:both}
 
 .container-fluid>.row {clear:both}
